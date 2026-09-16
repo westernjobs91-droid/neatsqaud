@@ -43,16 +43,27 @@ npm run build   # outputs the production site to _site/
 7. **Social image** — `src/images/og-image.svg` is an SVG placeholder for social share
    previews. Many platforms (e.g. iMessage, some Facebook/LinkedIn crawlers) don't render
    SVG previews — export a 1200×630 PNG/JPG version for full compatibility.
-8. **Quote form backend** — the contact form (`src/_includes/partials/quote-form.njk`) is
-   wired for [Netlify Forms](https://docs.netlify.com/forms/setup/) (`data-netlify="true"`),
-   which works automatically if you deploy on Netlify with zero extra setup. If you deploy
-   elsewhere, point the form's `action` at a service like Formspree, or your own backend.
+8. **Quote form env vars** — the contact form posts to the Vercel serverless function at
+   `api/contact.js`, which emails the lead via [Resend](https://resend.com). In your Vercel
+   project's Settings → Environment Variables, set:
+   - `RESEND_API_KEY` — from a free Resend account (no domain verification needed to start;
+     it uses Resend's shared `onboarding@resend.dev` sender out of the box)
+   - `CONTACT_TO_EMAIL` — the inbox that should receive quote requests
+   Until both are set, the form will show a friendly "please call or email us" message
+   instead of failing silently.
 
-## Deployment
+## Deployment (Vercel)
 
-Any static host works (Netlify, Vercel, Cloudflare Pages, GitHub Pages). Netlify is the
-easiest given the built-in form handling: connect the repo, set the build command to
-`npm run build` and the publish directory to `_site`.
+1. Push this repo to GitHub (already done if you're reading this from the repo) and import
+   it in the [Vercel dashboard](https://vercel.com/new), or run `vercel` from the project
+   root with the Vercel CLI.
+2. `vercel.json` already sets the build command (`npm run build`) and output directory
+   (`_site`) — no manual config needed. The `api/contact.js` serverless function is picked
+   up automatically.
+3. Add the two environment variables above in the Vercel project settings, then redeploy
+   (env var changes don't apply to already-built deployments).
+4. Once you have a real domain, add it in Vercel's Domains tab, then update `site.url` in
+   `src/_data/site.js` and the `Sitemap:` line in `src/robots.txt` to match.
 
 ## SEO notes
 

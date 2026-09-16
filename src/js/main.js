@@ -19,32 +19,39 @@
     });
   }
 
-  // Progressive-enhancement AJAX submit for the quote/contact form (Netlify Forms compatible).
+  // Progressive-enhancement AJAX submit for the quote/contact form, posting JSON
+  // to the Vercel serverless function at /api/contact. Falls back to a plain
+  // form POST (still handled by the same endpoint) if JS fails to load.
   var form = document.querySelector("#quote-form");
   if (form) {
     form.addEventListener("submit", function (event) {
       event.preventDefault();
       var status = form.querySelector(".form-status");
-      var data = new FormData(form);
+      var data = Object.fromEntries(new FormData(form).entries());
       var submitBtn = form.querySelector('button[type="submit"]');
       if (submitBtn) submitBtn.disabled = true;
 
-      fetch(form.getAttribute("action") || "/", {
+      fetch(form.getAttribute("action") || "/api/contact", {
         method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(data).toString(),
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(data),
       })
-        .then(function () {
-          form.reset();
-          if (status) {
-            status.textContent = "Thanks! Your request has been sent — we'll get back to you shortly.";
-            status.setAttribute("data-state", "success");
-          }
+        .then(function (res) {
+          return res.json().then(function (json) {
+            if (!res.ok) throw new Error(json.error || "Request failed");
+            form.reset();
+            if (status) {
+              status.textContent = "Thanks! Your request has been sent — we'll get back to you shortly.";
+              status.setAttribute("data-state", "success");
+            }
+          });
         })
-        .catch(function () {
+        .catch(function (err) {
           if (status) {
             status.textContent =
-              "Something went wrong sending your request. Please call or email us directly — details are above.";
+              err.message && err.message !== "Request failed"
+                ? err.message
+                : "Something went wrong sending your request. Please call or email us directly — details are above.";
             status.setAttribute("data-state", "error");
           }
         })

@@ -1,10 +1,9 @@
 {#
-  Netlify Forms-compatible quote request form.
-  If not hosting on Netlify, point `action` at your own form backend (e.g. Formspree)
-  and keep the field names — main.js progressively enhances the submit with fetch().
+  Submits to the Vercel serverless function at /api/contact (see /api/contact.js),
+  which emails the lead via Resend. main.js progressively enhances this with a
+  fetch()-based submit; it still works as a plain form POST without JS.
 #}
-<form id="quote-form" name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact/thank-you/">
-  <input type="hidden" name="form-name" value="quote-request">
+<form id="quote-form" name="quote-request" method="POST" action="/api/contact">
   <p class="visually-hidden">
     <label>Don't fill this out if you're human: <input name="bot-field"></label>
   </p>
