@@ -3,6 +3,7 @@ layout: layouts/base.njk
 title: "Gallery | Neat Squad Cleaning Results Across the GTA"
 description: "See the kind of results Neat Squad delivers on house, office, and driveway cleaning projects across the Greater Toronto Area."
 ---
+{% from "partials/illustrations.njk" import kitchenScene, officeScene, drivewayScene, emptyRoomScene, sofaScene, livingRoomScene %}
 <section class="page-hero">
   <div class="container">
     {% set crumbs = [{label: "Gallery"}] %}
@@ -15,25 +16,40 @@ description: "See the kind of results Neat Squad delivers on house, office, and 
 <section class="section">
   <div class="container">
     <div class="notice-box">
-      Drag the sliders below to see the interaction — they use placeholder panels for now.
-      Swap the <code>.ba-before</code> / <code>.ba-after</code> backgrounds for real project photos
-      as they become available; the slider interaction will work the same way with real images.
+      Drag the sliders below to see the interaction. These are custom illustrations, not
+      real project photos — swap the <code>.ba-before</code> / <code>.ba-after</code>
+      contents for real before/after photos as jobs are completed; the slider interaction
+      will work the same way with real images.
     </div>
     <div class="grid grid-3">
       {% set showcases = [
-        { title: "Full Home Deep Clean", desc: "Kitchen, bathrooms, and living areas restored to spotless.", tag: "House Cleaning" },
-        { title: "Downtown Office Refresh", desc: "Weekly janitorial service for a Toronto office suite.", tag: "Office Cleaning" },
-        { title: "Driveway Pressure Wash", desc: "Years of grime and salt stains lifted from a concrete driveway.", tag: "Driveway Cleaning" },
-        { title: "Move-Out Turnover", desc: "End-of-lease deep clean, ready for the next tenant.", tag: "Move-In/Move-Out" },
-        { title: "Sofa & Carpet Refresh", desc: "Steam-cleaned upholstery and carpet, stain and odor treated.", tag: "Carpet & Upholstery" },
-        { title: "Post-Move Deep Clean", desc: "Every surface detailed before move-in day.", tag: "Deep Cleaning" }
+        { title: "Full Home Deep Clean", desc: "Kitchen, bathrooms, and living areas restored to spotless.", tag: "House Cleaning", scene: "kitchen" },
+        { title: "Downtown Office Refresh", desc: "Weekly janitorial service for a Toronto office suite.", tag: "Office Cleaning", scene: "office" },
+        { title: "Driveway Pressure Wash", desc: "Years of grime and salt stains lifted from a concrete driveway.", tag: "Driveway Cleaning", scene: "driveway" },
+        { title: "Move-Out Turnover", desc: "End-of-lease deep clean, ready for the next tenant.", tag: "Move-In/Move-Out", scene: "emptyRoom" },
+        { title: "Sofa & Carpet Refresh", desc: "Steam-cleaned upholstery and carpet, stain and odor treated.", tag: "Carpet & Upholstery", scene: "sofa" },
+        { title: "Post-Move Deep Clean", desc: "Every surface detailed before move-in day.", tag: "Deep Cleaning", scene: "livingRoom" }
       ] %}
       {% for item in showcases %}
       <div class="ba-item">
         <div class="ba-slider">
           <div class="ba-visual">
-            <div class="ba-before"></div>
-            <div class="ba-after"></div>
+            <div class="ba-before">
+              {% if item.scene == "kitchen" %}{{ kitchenScene(true) }}
+              {% elif item.scene == "office" %}{{ officeScene(true) }}
+              {% elif item.scene == "driveway" %}{{ drivewayScene(true) }}
+              {% elif item.scene == "emptyRoom" %}{{ emptyRoomScene(true) }}
+              {% elif item.scene == "sofa" %}{{ sofaScene(true) }}
+              {% elif item.scene == "livingRoom" %}{{ livingRoomScene(true) }}{% endif %}
+            </div>
+            <div class="ba-after">
+              {% if item.scene == "kitchen" %}{{ kitchenScene(false) }}
+              {% elif item.scene == "office" %}{{ officeScene(false) }}
+              {% elif item.scene == "driveway" %}{{ drivewayScene(false) }}
+              {% elif item.scene == "emptyRoom" %}{{ emptyRoomScene(false) }}
+              {% elif item.scene == "sofa" %}{{ sofaScene(false) }}
+              {% elif item.scene == "livingRoom" %}{{ livingRoomScene(false) }}{% endif %}
+            </div>
             <span class="ba-label ba-label--before">Before</span>
             <span class="ba-label ba-label--after">After</span>
             <div class="ba-handle" aria-hidden="true"></div>

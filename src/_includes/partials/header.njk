@@ -1,8 +1,9 @@
 {% from "partials/icons.njk" import icon %}
+{% from "partials/logo.njk" import logoMark %}
 <header class="site-header">
   <div class="container">
     <a href="/" class="brand">
-      <span class="brand-mark">{{ icon("sparkles") }}</span>
+      <span class="brand-mark">{{ logoMark() }}</span>
       {{ site.name }}
     </a>
     <nav class="main-nav" aria-label="Primary">

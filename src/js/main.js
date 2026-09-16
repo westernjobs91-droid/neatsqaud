@@ -100,7 +100,7 @@
     var handle = slider.querySelector(".ba-handle");
     if (!range || !after) return;
     var update = function () {
-      after.style.clipPath = "inset(0 " + (100 - range.value) + "% 0 0)";
+      after.style.clipPath = "inset(0 0 0 " + range.value + "%)";
       if (handle) handle.style.left = range.value + "%";
     };
     range.addEventListener("input", update);

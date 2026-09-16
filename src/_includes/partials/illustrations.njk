@@ -1,0 +1,167 @@
+{#
+  Flat-design "scene" illustrations, each with a dirty/clean toggle so the same
+  scene can serve as a service-page hero (clean) and a before/after gallery
+  pair (dirty -> clean). viewBox is 0 0 400 300 (4:3) throughout.
+#}
+
+{% macro sparkle(x, y, s) %}
+<path d="M{{ x }} {{ y - s }}l{{ s * 0.28 }} {{ s * 0.72 }} {{ s * 0.72 }} {{ s * 0.28 }}-{{ s * 0.72 }} {{ s * 0.28 }}-{{ s * 0.28 }} {{ s * 0.72 }}-{{ s * 0.28 }}-{{ s * 0.72 }}-{{ s * 0.72 }}-{{ s * 0.28 }} {{ s * 0.72 }}-{{ s * 0.28 }}z" fill="#ff6b4a"/>
+{% endmacro %}
+
+{% macro grime(x, y, r) %}
+<circle cx="{{ x }}" cy="{{ y }}" r="{{ r }}" fill="#8a7a63" opacity="0.35"/>
+{% endmacro %}
+
+{% macro sceneFrame(dirty) %}
+<rect width="400" height="300" fill="{% if dirty %}#e9e4da{% else %}#eef4f2{% endif %}"/>
+{% endmacro %}
+
+{% macro kitchenScene(dirty) %}
+<svg viewBox="0 0 400 300" role="img" aria-label="{% if dirty %}Kitchen before cleaning{% else %}Sparkling clean kitchen{% endif %}">
+  {{ sceneFrame(dirty) }}
+  <rect y="190" width="400" height="110" fill="{% if dirty %}#c7b190{% else %}#d9c3a3{% endif %}"/>
+  <rect x="278" y="28" width="92" height="68" rx="4" fill="{% if dirty %}#b9c7c9{% else %}#cfe7e4{% endif %}" stroke="#0f5c5c" stroke-width="4"/>
+  <path d="M324 28v68M278 62h92" stroke="#0f5c5c" stroke-width="3"/>
+  <rect x="40" y="38" width="150" height="56" rx="4" fill="#ffffff" stroke="#0f5c5c" stroke-width="3"/>
+  <path d="M115 38v56" stroke="#0f5c5c" stroke-width="2"/>
+  <circle cx="78" cy="66" r="3" fill="#0f5c5c"/>
+  <circle cx="152" cy="66" r="3" fill="#0f5c5c"/>
+  <rect x="30" y="176" width="230" height="76" fill="#0f5c5c"/>
+  <rect x="22" y="164" width="246" height="16" rx="3" fill="#ffffff"/>
+  <rect x="108" y="160" width="56" height="10" rx="3" fill="#c9d6d5"/>
+  <path d="M136 160v-10M128 150h16" stroke="#7f9391" stroke-width="3" stroke-linecap="round"/>
+  {% if dirty %}
+  <ellipse cx="205" cy="158" rx="20" ry="7" fill="#dcd6cb"/>
+  <ellipse cx="205" cy="151" rx="16" ry="6" fill="#eee8dd"/>
+  <ellipse cx="230" cy="160" rx="12" ry="5" fill="#cfc7b8"/>
+  {{ grime(70, 172, 3) }}{{ grime(90, 176, 2.5) }}{{ grime(190, 174, 3) }}{{ grime(45, 230, 3) }}{{ grime(300, 250, 3) }}{{ grime(150, 240, 2.5) }}
+  <rect width="400" height="300" fill="#5c5142" opacity="0.06"/>
+  {% else %}
+  <rect x="30" y="168" width="230" height="8" fill="#ffffff" opacity="0.5" transform="skewX(-20)"/>
+  {{ sparkle(300, 60, 14) }}{{ sparkle(330, 110, 9) }}{{ sparkle(50, 120, 10) }}
+  {% endif %}
+</svg>
+{% endmacro %}
+
+{% macro officeScene(dirty) %}
+<svg viewBox="0 0 400 300" role="img" aria-label="{% if dirty %}Office before cleaning{% else %}Freshly cleaned office{% endif %}">
+  {{ sceneFrame(dirty) }}
+  <rect y="230" width="400" height="70" fill="{% if dirty %}#cfc9bd{% else %}#e2e9e8{% endif %}"/>
+  <rect x="270" y="30" width="90" height="70" rx="4" fill="{% if dirty %}#b9c7c9{% else %}#cfe7e4{% endif %}" stroke="#0f5c5c" stroke-width="4"/>
+  <path d="M315 30v70" stroke="#0f5c5c" stroke-width="3"/>
+  <rect x="60" y="222" width="220" height="14" rx="3" fill="#0f5c5c"/>
+  <rect x="75" y="236" width="10" height="40" fill="#0a4040"/>
+  <rect x="245" y="236" width="10" height="40" fill="#0a4040"/>
+  <rect x="140" y="120" width="76" height="54" rx="4" fill="{% if dirty %}#7c8887{% else %}#0f5c5c{% endif %}"/>
+  <rect x="168" y="174" width="20" height="16" fill="#94a3a2"/>
+  {% if not dirty %}
+  <path d="M156 138h48M156 150h34" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  {% endif %}
+  <rect x="60" y="120" width="30" height="40" rx="14" fill="{% if dirty %}#9aa6a5{% else %}#0a4040{% endif %}"/>
+  {% if dirty %}
+  <rect x="190" y="212" width="26" height="16" rx="1" fill="#eeead9" transform="rotate(-8 190 212)"/>
+  <rect x="215" y="216" width="24" height="15" rx="1" fill="#e4dfc9" transform="rotate(6 215 216)"/>
+  <ellipse cx="100" cy="220" rx="9" ry="4" fill="none" stroke="#8a7a63" stroke-width="2" opacity="0.6"/>
+  {{ grime(240, 224, 2.5) }}{{ grime(90, 260, 3) }}{{ grime(320, 270, 3) }}
+  <rect width="400" height="300" fill="#5c5142" opacity="0.06"/>
+  {% else %}
+  <circle cx="330" cy="200" r="16" fill="#38b6a8" opacity="0.85"/>
+  <rect x="325" y="212" width="10" height="24" fill="#0a4040"/>
+  {{ sparkle(60, 90, 12) }}{{ sparkle(250, 95, 9) }}
+  {% endif %}
+</svg>
+{% endmacro %}
+
+{% macro drivewayScene(dirty) %}
+<svg viewBox="0 0 400 300" role="img" aria-label="{% if dirty %}Driveway before pressure washing{% else %}Freshly pressure-washed driveway{% endif %}">
+  <rect width="400" height="300" fill="#cfe9f0"/>
+  <path d="M60 150 130 90h60l70 60z" fill="#c85a3c"/>
+  <rect x="90" y="150" width="150" height="80" fill="#f2e9db"/>
+  <rect x="150" y="185" width="34" height="45" fill="#0f5c5c"/>
+  <rect x="110" y="165" width="26" height="22" fill="#cfe7e4" stroke="#0f5c5c" stroke-width="2"/>
+  <path d="M0 230 130 230 90 300H0z" fill="#8ba888"/>
+  <path d="M400 230 270 230 320 300H400z" fill="#8ba888"/>
+  <path d="M130 230h140l40 70H90z" fill="{% if dirty %}#a8a196{% else %}#c7c7c5{% endif %}"/>
+  {% if dirty %}
+  <ellipse cx="200" cy="260" rx="30" ry="10" fill="#6d5f45" opacity="0.45"/>
+  <ellipse cx="150" cy="280" rx="22" ry="8" fill="#5c5142" opacity="0.4"/>
+  <ellipse cx="250" cy="285" rx="26" ry="8" fill="#6d5f45" opacity="0.4"/>
+  <path d="M170 235l-15 65M230 235l15 65" stroke="#4a4236" stroke-width="5" opacity="0.35"/>
+  {% else %}
+  <path d="M150 240l60 55M190 235l70 60" stroke="#ffffff" stroke-width="6" opacity="0.4" stroke-linecap="round"/>
+  {{ sparkle(320, 250, 12) }}{{ sparkle(80, 265, 10) }}
+  {% endif %}
+</svg>
+{% endmacro %}
+
+{% macro emptyRoomScene(dirty) %}
+<svg viewBox="0 0 400 300" role="img" aria-label="{% if dirty %}Empty room before move-out cleaning{% else %}Spotless empty room{% endif %}">
+  {{ sceneFrame(dirty) }}
+  <rect y="220" width="400" height="80" fill="{% if dirty %}#c2ab86{% else %}#d9c3a3{% endif %}"/>
+  <rect x="150" y="50" width="100" height="90" rx="3" fill="{% if dirty %}#aebcbb{% else %}#cfe7e4{% endif %}" stroke="#0f5c5c" stroke-width="4"/>
+  <path d="M200 50v90M150 95h100" stroke="#0f5c5c" stroke-width="3"/>
+  <rect x="0" y="215" width="400" height="6" fill="#0a4040" opacity="0.5"/>
+  {% if dirty %}
+  <path d="M370 20l10 6-6 10 10-2-2 12" stroke="#9aa6a5" stroke-width="2" fill="none" opacity="0.8"/>
+  <circle cx="60" cy="90" r="3" fill="#c7d0cf"/>
+  <circle cx="100" cy="60" r="2.5" fill="#c7d0cf"/>
+  <circle cx="320" cy="170" r="3" fill="#c7d0cf"/>
+  <circle cx="280" cy="120" r="2" fill="#c7d0cf"/>
+  <rect x="55" y="235" width="46" height="34" fill="#b9a37e" transform="rotate(-4 55 235)"/>
+  <rect x="290" y="240" width="40" height="30" fill="#c2ad86" transform="rotate(5 290 240)"/>
+  <ellipse cx="180" cy="255" rx="26" ry="6" fill="#5c5142" opacity="0.2"/>
+  <rect width="400" height="300" fill="#5c5142" opacity="0.06"/>
+  {% else %}
+  <path d="M150 50 60 220h140z" fill="#fff7e0" opacity="0.35"/>
+  {{ sparkle(90, 170, 12) }}{{ sparkle(300, 90, 10) }}{{ sparkle(330, 200, 9) }}
+  {% endif %}
+</svg>
+{% endmacro %}
+
+{% macro sofaScene(dirty) %}
+<svg viewBox="0 0 400 300" role="img" aria-label="{% if dirty %}Sofa and rug before cleaning{% else %}Freshly cleaned sofa and rug{% endif %}">
+  {{ sceneFrame(dirty) }}
+  <rect x="30" y="190" width="340" height="90" rx="10" fill="{% if dirty %}#cbb79a{% else %}#e7d7b8{% endif %}"/>
+  <rect x="65" y="120" width="270" height="100" rx="22" fill="{% if dirty %}#7f9391{% else %}#0f5c5c{% endif %}"/>
+  <rect x="50" y="150" width="34" height="90" rx="16" fill="{% if dirty %}#71827f{% else %}#0a4040{% endif %}"/>
+  <rect x="316" y="150" width="34" height="90" rx="16" fill="{% if dirty %}#71827f{% else %}#0a4040{% endif %}"/>
+  <rect x="95" y="165" width="90" height="55" rx="14" fill="{% if dirty %}#8c9d9b{% else %}#ff6b4a{% endif %}"/>
+  <rect x="195" y="165" width="90" height="55" rx="14" fill="{% if dirty %}#8c9d9b{% else %}#ff8a6b{% endif %}"/>
+  {% if dirty %}
+  <ellipse cx="140" cy="195" rx="20" ry="12" fill="#5c5142" opacity="0.35"/>
+  <ellipse cx="240" cy="240" rx="26" ry="9" fill="#5c5142" opacity="0.3"/>
+  <ellipse cx="90" cy="255" rx="18" ry="7" fill="#5c5142" opacity="0.25"/>
+  <rect width="400" height="300" fill="#5c5142" opacity="0.08"/>
+  {% else %}
+  <path d="M40 205h320" stroke="#ffffff" stroke-width="2" opacity="0.4" stroke-dasharray="10 8"/>
+  {{ sparkle(340, 100, 13) }}{{ sparkle(55, 110, 10) }}{{ sparkle(200, 90, 9) }}
+  {% endif %}
+</svg>
+{% endmacro %}
+
+{% macro livingRoomScene(dirty) %}
+<svg viewBox="0 0 400 300" role="img" aria-label="{% if dirty %}Living room before deep cleaning{% else %}Freshly deep-cleaned living room{% endif %}">
+  {{ sceneFrame(dirty) }}
+  <rect y="210" width="400" height="90" fill="{% if dirty %}#c2ab86{% else %}#d9c3a3{% endif %}"/>
+  <rect x="270" y="170" width="110" height="40" rx="4" fill="{% if dirty %}#8c9d9b{% else %}#0f5c5c{% endif %}"/>
+  <rect x="280" y="130" width="90" height="10" fill="{% if dirty %}#a8b3b1{% else %}#cfe7e4{% endif %}"/>
+  <rect x="290" y="105" width="20" height="18" fill="#c85a3c"/>
+  <rect x="320" y="105" width="16" height="18" fill="#0f5c5c"/>
+  <rect x="345" y="105" width="14" height="18" fill="#ff6b4a"/>
+  <rect x="30" y="150" width="150" height="70" rx="18" fill="{% if dirty %}#7f9391{% else %}#0f5c5c{% endif %}"/>
+  <rect x="55" y="165" width="55" height="40" rx="10" fill="{% if dirty %}#8c9d9b{% else %}#ff6b4a{% endif %}"/>
+  <rect x="115" y="165" width="55" height="40" rx="10" fill="{% if dirty %}#8c9d9b{% else %}#ff8a6b{% endif %}"/>
+  <rect x="70" y="222" width="90" height="24" rx="4" fill="{% if dirty %}#b0a186{% else %}#f2e9db{% endif %}"/>
+  {% if dirty %}
+  <rect x="90" y="205" width="24" height="16" fill="#cfc7b8" transform="rotate(-6 90 205)"/>
+  <rect x="130" y="210" width="20" height="14" fill="#e4dfc9" transform="rotate(8 130 210)"/>
+  {{ grime(200, 250, 3) }}{{ grime(320, 260, 3) }}{{ grime(60, 270, 2.5) }}
+  <ellipse cx="150" cy="185" rx="14" ry="8" fill="#5c5142" opacity="0.3"/>
+  <rect width="400" height="300" fill="#5c5142" opacity="0.07"/>
+  {% else %}
+  <ellipse cx="90" cy="238" rx="6" ry="16" fill="#38b6a8"/>
+  <rect x="86" y="252" width="8" height="14" fill="#0a4040"/>
+  {{ sparkle(200, 90, 12) }}{{ sparkle(40, 130, 9) }}
+  {% endif %}
+</svg>
+{% endmacro %}

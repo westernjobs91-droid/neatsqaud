@@ -1,10 +1,11 @@
 {% from "partials/icons.njk" import icon %}
+{% from "partials/logo.njk" import logoMark %}
 <footer class="site-footer">
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/" class="brand" style="color:#fff">
-          <span class="brand-mark" style="color:#fff">{{ icon("sparkles") }}</span>
+          <span class="brand-mark">{{ logoMark() }}</span>
           {{ site.name }}
         </a>
         <p>Professional house, office, and exterior cleaning across the Greater Toronto Area — reliable, detail-oriented, and easy to book.</p>

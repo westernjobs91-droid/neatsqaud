@@ -10,16 +10,26 @@ eleventyComputed:
   description: "{{ service.metaDescription }}"
 ---
 {% from "partials/icons.njk" import icon %}
+{% from "partials/illustrations.njk" import kitchenScene, officeScene, drivewayScene, emptyRoomScene, sofaScene, livingRoomScene %}
 
-<section class="page-hero">
-  <div class="container">
-    {% set crumbs = [{label: "Services", url: "/services/"}, {label: service.name}] %}
-    {% include "partials/breadcrumbs.njk" %}
-    <h1>{{ service.heroHeadline }}</h1>
-    <p class="lede">{{ service.heroSubheadline }}</p>
-    <div class="hero-actions">
-      <a href="/contact/" class="btn btn-accent">Get a Free Quote</a>
-      <a href="tel:{{ site.phoneHref }}" class="btn btn-outline" style="color:#fff;border-color:#fff">Call {{ site.phone }}</a>
+<section class="page-hero page-hero--split">
+  <div class="container page-hero-grid">
+    <div>
+      {% set crumbs = [{label: "Services", url: "/services/"}, {label: service.name}] %}
+      {% include "partials/breadcrumbs.njk" %}
+      <h1>{{ service.heroHeadline }}</h1>
+      <p class="lede">{{ service.heroSubheadline }}</p>
+      <div class="hero-actions">
+        <a href="/contact/" class="btn btn-accent">Get a Free Quote</a>
+        <a href="tel:{{ site.phoneHref }}" class="btn btn-outline" style="color:#fff;border-color:#fff">Call {{ site.phone }}</a>
+      </div>
+    </div>
+    <div class="hero-art-card page-hero-art" aria-hidden="true">
+      {% if service.slug == "house-cleaning" %}{{ livingRoomScene(false) }}
+      {% elif service.slug == "office-cleaning" %}{{ officeScene(false) }}
+      {% elif service.slug == "driveway-exterior-cleaning" %}{{ drivewayScene(false) }}
+      {% elif service.slug == "deep-cleaning-move-in-out" %}{{ emptyRoomScene(false) }}
+      {% elif service.slug == "carpet-upholstery-cleaning" %}{{ sofaScene(false) }}{% endif %}
     </div>
   </div>
 </section>

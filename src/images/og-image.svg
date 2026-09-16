@@ -8,10 +8,11 @@
   <rect width="1200" height="630" fill="url(#bg)"/>
   <circle cx="1040" cy="120" r="220" fill="#ffffff" opacity="0.06"/>
   <circle cx="120" cy="560" r="180" fill="#ff6b4a" opacity="0.18"/>
-  <g transform="translate(90,220)">
-    <path d="M40 0v22M40 78v22M0 40h22M78 40h22M11.7 11.7l15.6 15.6M52.7 52.7l15.6 15.6M68.3 11.7 52.7 27.3M27.3 52.7 11.7 68.3"
-          stroke="#ff6b4a" stroke-width="7" stroke-linecap="round" transform="translate(0,0)"/>
-    <circle cx="40" cy="40" r="16" fill="#ffffff"/>
+  <g transform="translate(90,205)">
+    <rect width="110" height="110" rx="26" fill="#ffffff" opacity="0.12"/>
+    <path d="M32 58l16 16 36-40" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M84 18l3.4 8.4 8.4 3.4-8.4 3.4-3.4 8.4-3.4-8.4-8.4-3.4 8.4-3.4z" fill="#ff6b4a"/>
+    <path d="M18 78l2.3 5.5 5.5 2.3-5.5 2.3-2.3 5.5-2.3-5.5-5.5-2.3 5.5-2.3z" fill="#ff6b4a"/>
   </g>
   <text x="230" y="300" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#ffffff">Neat Squad</text>
   <text x="230" y="360" font-family="Arial, sans-serif" font-size="34" fill="#dcefec">Professional Cleaning Across the GTA</text>

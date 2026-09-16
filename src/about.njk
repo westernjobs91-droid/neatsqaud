@@ -4,13 +4,19 @@ title: "About Neat Squad | GTA Cleaning Company"
 description: "Learn about Neat Squad, a Greater Toronto Area cleaning company focused on reliable, detail-oriented house, office, and exterior cleaning."
 ---
 {% from "partials/icons.njk" import icon %}
+{% from "partials/illustrations.njk" import kitchenScene %}
 
-<section class="page-hero">
-  <div class="container">
-    {% set crumbs = [{label: "About"}] %}
-    {% include "partials/breadcrumbs.njk" %}
-    <h1>Built to make cleaning one less thing you worry about</h1>
-    <p class="lede">Neat Squad is a Greater Toronto Area cleaning company focused on one thing: showing up, doing careful work, and making it effortless to book.</p>
+<section class="page-hero page-hero--split">
+  <div class="container page-hero-grid">
+    <div>
+      {% set crumbs = [{label: "About"}] %}
+      {% include "partials/breadcrumbs.njk" %}
+      <h1>Built to make cleaning one less thing you worry about</h1>
+      <p class="lede">Neat Squad is a Greater Toronto Area cleaning company focused on one thing: showing up, doing careful work, and making it effortless to book.</p>
+    </div>
+    <div class="hero-art-card page-hero-art" aria-hidden="true">
+      {{ kitchenScene(false) }}
+    </div>
   </div>
 </section>
 
