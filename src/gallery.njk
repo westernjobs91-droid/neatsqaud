@@ -15,7 +15,9 @@ description: "See the kind of results Neat Squad delivers on house, office, and 
 <section class="section">
   <div class="container">
     <div class="notice-box">
-      This page uses placeholder before/after panels. Swap each <code>.ba-visual</code> block for real project photos as they become available — real photos build far more trust than illustrations.
+      Drag the sliders below to see the interaction — they use placeholder panels for now.
+      Swap the <code>.ba-before</code> / <code>.ba-after</code> backgrounds for real project photos
+      as they become available; the slider interaction will work the same way with real images.
     </div>
     <div class="grid grid-3">
       {% set showcases = [
@@ -28,9 +30,15 @@ description: "See the kind of results Neat Squad delivers on house, office, and 
       ] %}
       {% for item in showcases %}
       <div class="ba-item">
-        <div class="ba-visual">
-          <div class="ba-before">Before</div>
-          <div class="ba-after">After</div>
+        <div class="ba-slider">
+          <div class="ba-visual">
+            <div class="ba-before"></div>
+            <div class="ba-after"></div>
+            <span class="ba-label ba-label--before">Before</span>
+            <span class="ba-label ba-label--after">After</span>
+            <div class="ba-handle" aria-hidden="true"></div>
+          </div>
+          <input type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after: {{ item.title }}">
         </div>
         <div class="ba-caption">
           <span class="tag-pill">{{ item.tag }}</span>

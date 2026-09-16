@@ -6,10 +6,12 @@ description: "Neat Squad provides professional house, office, driveway, and deep
 {% from "partials/icons.njk" import icon %}
 
 <section class="hero">
+  <div class="hero-blob hero-blob--1" aria-hidden="true"></div>
+  <div class="hero-blob hero-blob--2" aria-hidden="true"></div>
   <div class="container">
-    <div>
+    <div class="reveal">
       <span class="eyebrow">Serving the Greater Toronto Area</span>
-      <h1>A spotless home or office, without the hassle.</h1>
+      <h1>A <span class="text-gradient">spotless</span> home or office, without the hassle.</h1>
       <p class="lede">Neat Squad delivers dependable house, office, driveway, and deep-cleaning services across the GTA — book online in minutes and get your time back.</p>
       <div class="hero-actions">
         <a href="/contact/" class="btn btn-accent">Get a Free Quote</a>
@@ -21,18 +23,43 @@ description: "Neat Squad provides professional house, office, driveway, and deep
         <span class="hero-badge">{{ icon("pin") }} All across the GTA</span>
       </div>
     </div>
-    <div class="hero-art" aria-hidden="true">
-      <svg viewBox="0 0 400 320" fill="none">
-        <rect x="30" y="120" width="340" height="170" rx="12" fill="#ffffff" fill-opacity="0.9"/>
-        <path d="M50 120 200 30l150 90" stroke="#ff6b4a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-        <rect x="90" y="160" width="70" height="90" rx="6" fill="#0f5c5c"/>
-        <rect x="190" y="150" width="50" height="50" rx="6" fill="#e6f3f1"/>
-        <rect x="260" y="150" width="50" height="50" rx="6" fill="#e6f3f1"/>
-        <path d="M105 195h10M115 195h10" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
-        <g stroke="#ff6b4a" stroke-width="5" stroke-linecap="round">
-          <path d="M330 60v14M330 104v14M308 82h14M352 82h14M314 66l10 10M336 96l10 10M346 66l-10 10M324 96l-10 10"/>
-        </g>
-      </svg>
+    <div class="hero-art reveal" aria-hidden="true">
+      <div class="hero-art-card">
+        <svg viewBox="0 0 400 320" fill="none">
+          <rect x="30" y="120" width="340" height="170" rx="12" fill="#ffffff" fill-opacity="0.95"/>
+          <path d="M50 120 200 30l150 90" stroke="#ff6b4a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <rect x="90" y="160" width="70" height="90" rx="6" fill="#0f5c5c"/>
+          <rect x="190" y="150" width="50" height="50" rx="6" fill="#e6f3f1"/>
+          <rect x="260" y="150" width="50" height="50" rx="6" fill="#e6f3f1"/>
+          <path d="M105 195h10M115 195h10" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+          <g stroke="#ff6b4a" stroke-width="5" stroke-linecap="round">
+            <path d="M330 60v14M330 104v14M308 82h14M352 82h14M314 66l10 10M336 96l10 10M346 66l-10 10M324 96l-10 10"/>
+          </g>
+        </svg>
+      </div>
+      <span class="floating-chip floating-chip--1">{{ icon("check") }} Free quotes</span>
+      <span class="floating-chip floating-chip--2">{{ icon("clock") }} Book in minutes</span>
+    </div>
+  </div>
+</section>
+
+<section class="stats-band">
+  <div class="container stats-grid">
+    <div>
+      <div class="stat-value"><span data-count-to="5">5</span></div>
+      <div class="stat-label">Specialized Services</div>
+    </div>
+    <div>
+      <div class="stat-value"><span data-count-to="10">10</span></div>
+      <div class="stat-label">GTA Cities Served</div>
+    </div>
+    <div>
+      <div class="stat-value"><span data-count-to="1">1</span></div>
+      <div class="stat-label">Business-Day Response</div>
+    </div>
+    <div>
+      <div class="stat-value"><span data-count-to="100" data-suffix="%">100%</span></div>
+      <div class="stat-label">Free, No-Obligation Quotes</div>
     </div>
   </div>
 </section>
