@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+permalink: /service-areas/
+title: "Service Areas | Neat Squad Cleaning Across the GTA"
+description: "Neat Squad provides house, office, and exterior cleaning across the Greater Toronto Area, including Toronto, Mississauga, Brampton, Vaughan, and more."
+---
+<section class="page-hero">
+  <div class="container">
+    {% set crumbs = [{label: "Service Areas"}] %}
+    {% include "partials/breadcrumbs.njk" %}
+    <h1>Serving the entire Greater Toronto Area</h1>
+    <p class="lede">Find your city below to see local service details, or contact us if you don't see yours listed — we're always expanding.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-4">
+      {% for loc in locations %}
+      <a class="card" href="/service-areas/{{ loc.slug }}/" style="text-decoration:none">
+        <h3 style="margin-bottom:0.25rem">{{ loc.name }}</h3>
+        <p style="margin:0;color:var(--color-ink-soft);font-size:0.9rem">{{ loc.region }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    {% include "partials/cta-band.njk" %}
+  </div>
+</section>

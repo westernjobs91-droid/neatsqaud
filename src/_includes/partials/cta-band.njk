@@ -1,0 +1,11 @@
+{#
+  Usage: {% include "partials/cta-band.njk" %}
+  Optional overrides: set `ctaHeadline` and `ctaText` before including.
+#}
+<div class="cta-band">
+  <div>
+    <h2>{{ ctaHeadline or "Ready for a spotless space?" }}</h2>
+    <p>{{ ctaText or "Get a free, no-obligation quote in minutes — serving homes and businesses across the GTA." }}</p>
+  </div>
+  <a href="/contact/" class="btn btn-accent">Get My Free Quote</a>
+</div>

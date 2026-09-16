@@ -1,0 +1,51 @@
+{#
+  Netlify Forms-compatible quote request form.
+  If not hosting on Netlify, point `action` at your own form backend (e.g. Formspree)
+  and keep the field names — main.js progressively enhances the submit with fetch().
+#}
+<form id="quote-form" name="quote-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/contact/thank-you/">
+  <input type="hidden" name="form-name" value="quote-request">
+  <p class="visually-hidden">
+    <label>Don't fill this out if you're human: <input name="bot-field"></label>
+  </p>
+  <div class="form-grid">
+    <div class="form-field">
+      <label for="name">Full Name *</label>
+      <input type="text" id="name" name="name" required autocomplete="name">
+    </div>
+    <div class="form-field">
+      <label for="phone">Phone Number *</label>
+      <input type="tel" id="phone" name="phone" required autocomplete="tel">
+    </div>
+    <div class="form-field">
+      <label for="email">Email Address *</label>
+      <input type="email" id="email" name="email" required autocomplete="email">
+    </div>
+    <div class="form-field">
+      <label for="city">City / Area</label>
+      <select id="city" name="city">
+        <option value="">Select your city</option>
+        {% for loc in locations %}
+        <option value="{{ loc.name }}">{{ loc.name }}</option>
+        {% endfor %}
+        <option value="Other">Other GTA area</option>
+      </select>
+    </div>
+    <div class="form-field full">
+      <label for="service">Service Needed *</label>
+      <select id="service" name="service" required>
+        <option value="">Select a service</option>
+        {% for s in services %}
+        <option value="{{ s.name }}">{{ s.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div class="form-field full">
+      <label for="message">Tell us more about your space</label>
+      <textarea id="message" name="message" rows="4" placeholder="e.g. 3-bedroom house, biweekly cleaning, prefer weekday mornings"></textarea>
+    </div>
+  </div>
+  <p class="form-note">* Required. We'll respond within one business day with a free, no-obligation quote.</p>
+  <button type="submit" class="btn btn-accent btn-block">Request My Free Quote</button>
+  <p class="form-status" role="status" aria-live="polite"></p>
+</form>

@@ -1,0 +1,19 @@
+{% from "partials/icons.njk" import icon %}
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand">
+      <span class="brand-mark">{{ icon("sparkles") }}</span>
+      {{ site.name }}
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      {% for item in site.nav %}
+      <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+      <a href="/contact/" class="btn btn-accent btn-sm">Get a Free Quote</a>
+    </nav>
+    <div class="header-cta">
+      <a class="header-phone" href="tel:{{ site.phoneHref }}">{{ icon("phone") }} {{ site.phone }}</a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-navigation"><span></span></button>
+    </div>
+  </div>
+</header>

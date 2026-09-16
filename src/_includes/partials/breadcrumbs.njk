@@ -1,0 +1,24 @@
+{#
+  Usage: {% include "partials/breadcrumbs.njk" %} with a `crumbs` array in scope:
+  crumbs = [ { label: "Services", url: "/services/" }, { label: "House Cleaning" } ]
+  (last item has no url = current page)
+#}
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  {% for c in crumbs %}
+    <span class="sep">/</span>
+    {% if c.url %}<a href="{{ c.url }}">{{ c.label }}</a>{% else %}<span aria-current="page">{{ c.label }}</span>{% endif %}
+  {% endfor %}
+</nav>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" }
+    {% for c in crumbs %}
+    , { "@type": "ListItem", "position": {{ loop.index + 1 }}, "name": "{{ c.label }}", "item": "{{ site.url }}{{ c.url or page.url }}" }
+    {% endfor %}
+  ]
+}
+</script>

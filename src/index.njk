@@ -1,0 +1,164 @@
+---
+layout: layouts/base.njk
+title: "Neat Squad | House, Office & Driveway Cleaning Across the GTA"
+description: "Neat Squad provides professional house, office, driveway, and deep-cleaning services across the Greater Toronto Area. Get a free, no-obligation quote today."
+---
+{% from "partials/icons.njk" import icon %}
+
+<section class="hero">
+  <div class="container">
+    <div>
+      <span class="eyebrow">Serving the Greater Toronto Area</span>
+      <h1>A spotless home or office, without the hassle.</h1>
+      <p class="lede">Neat Squad delivers dependable house, office, driveway, and deep-cleaning services across the GTA — book online in minutes and get your time back.</p>
+      <div class="hero-actions">
+        <a href="/contact/" class="btn btn-accent">Get a Free Quote</a>
+        <a href="tel:{{ site.phoneHref }}" class="btn btn-outline" style="color:#fff;border-color:#fff">Call {{ site.phone }}</a>
+      </div>
+      <div class="hero-badges">
+        <span class="hero-badge">{{ icon("clock") }} Flexible scheduling</span>
+        <span class="hero-badge">{{ icon("leaf") }} Eco-conscious options</span>
+        <span class="hero-badge">{{ icon("pin") }} All across the GTA</span>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 400 320" fill="none">
+        <rect x="30" y="120" width="340" height="170" rx="12" fill="#ffffff" fill-opacity="0.9"/>
+        <path d="M50 120 200 30l150 90" stroke="#ff6b4a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <rect x="90" y="160" width="70" height="90" rx="6" fill="#0f5c5c"/>
+        <rect x="190" y="150" width="50" height="50" rx="6" fill="#e6f3f1"/>
+        <rect x="260" y="150" width="50" height="50" rx="6" fill="#e6f3f1"/>
+        <path d="M105 195h10M115 195h10" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+        <g stroke="#ff6b4a" stroke-width="5" stroke-linecap="round">
+          <path d="M330 60v14M330 104v14M308 82h14M352 82h14M314 66l10 10M336 96l10 10M346 66l-10 10M324 96l-10 10"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:2.5rem">
+      <span class="eyebrow">What we do</span>
+      <h2>Cleaning services built around your life</h2>
+      <p class="lede" style="margin:0 auto">From weekly home cleans to post-move deep cleans and office janitorial, our GTA-based team handles it all.</p>
+    </div>
+    <div class="grid grid-3">
+      {% for s in services %}
+      <div class="card">
+        <div class="card-icon">{{ icon(s.icon) }}</div>
+        <h3><a href="/services/{{ s.slug }}/">{{ s.name }}</a></h3>
+        <p>{{ s.benefits[0].description }}</p>
+        <a class="card-link" href="/services/{{ s.slug }}/">Learn more →</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:2.5rem">
+      <span class="eyebrow">How it works</span>
+      <h2>Booking a clean is simple</h2>
+    </div>
+    <ol class="steps">
+      <li>
+        <span class="step-num">1</span>
+        <h3>Request a Quote</h3>
+        <p>Tell us about your space and what you need — takes less than two minutes online.</p>
+      </li>
+      <li>
+        <span class="step-num">2</span>
+        <h3>We Confirm Details</h3>
+        <p>We follow up quickly to confirm scope, pricing, and a time that works for you.</p>
+      </li>
+      <li>
+        <span class="step-num">3</span>
+        <h3>Our Team Cleans</h3>
+        <p>A dedicated cleaner or crew arrives on time, fully equipped, and gets to work.</p>
+      </li>
+      <li>
+        <span class="step-num">4</span>
+        <h3>You Relax</h3>
+        <p>Walk into a spotless space and let us know if anything needs a touch-up.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-2" style="align-items:center;gap:3rem">
+      <div>
+        <span class="eyebrow">Why Neat Squad</span>
+        <h2>Reliable cleaning, without the runaround</h2>
+        <ul class="check-list" style="margin-top:1.5rem">
+          <li>{{ icon("check") }} <span>Consistent, detail-oriented cleaning every visit — the same checklist, every time.</span></li>
+          <li>{{ icon("check") }} <span>Easy online booking and clear, upfront quotes — no surprise fees.</span></li>
+          <li>{{ icon("check") }} <span>Flexible schedules that work around your household or business hours.</span></li>
+          <li>{{ icon("check") }} <span>Serving homes and businesses across the entire Greater Toronto Area.</span></li>
+        </ul>
+      </div>
+      <div class="grid" style="gap:1rem">
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="quote">"This is where a great customer review will go. Book with Neat Squad and be one of our first features here."</p>
+          <p class="attribution">— A future GTA customer</p>
+          <span class="placeholder-flag">Sample — add a real review</span>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="quote">"Real feedback from real clients will appear here as we grow across the GTA."</p>
+          <p class="attribution">— Neat Squad team</p>
+          <span class="placeholder-flag">Sample — add a real review</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:2rem">
+      <span class="eyebrow">Where we work</span>
+      <h2>Proudly serving the entire GTA</h2>
+      <p class="lede" style="margin:0 auto">Wherever you are in the Greater Toronto Area, Neat Squad can help.</p>
+    </div>
+    <div class="grid grid-4">
+      {% for loc in locations %}
+      <a class="card" href="/service-areas/{{ loc.slug }}/" style="text-decoration:none">
+        <h3 style="margin-bottom:0.25rem">{{ loc.name }}</h3>
+        <p style="margin:0;color:var(--color-ink-soft);font-size:0.9rem">{{ loc.region }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:2.5rem">
+      <span class="eyebrow">From the blog</span>
+      <h2>Cleaning tips for GTA homes & offices</h2>
+    </div>
+    <div class="grid grid-3">
+      {% for post in collections.posts %}
+      {% if loop.index <= 3 %}
+      <div class="card">
+        <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p>{{ post.data.description }}</p>
+        <a class="card-link" href="{{ post.url }}">Read more →</a>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {% include "partials/cta-band.njk" %}
+  </div>
+</section>

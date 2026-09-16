@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+title: "Terms of Service | Neat Squad"
+description: "Terms of service for booking and using Neat Squad's house, office, driveway, and deep-cleaning services in the GTA."
+---
+<section class="page-hero">
+  <div class="container">
+    {% set crumbs = [{label: "Terms of Service"}] %}
+    {% include "partials/breadcrumbs.njk" %}
+    <h1>Terms of Service</h1>
+    <p class="lede">Last updated: {% year %}</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container prose">
+    <div class="notice-box">This is a starting-point terms template, not legal advice. Have it reviewed by a lawyer before publishing live, and adjust cancellation/rescheduling windows to match your actual policy.</div>
+    <h2>Booking & quotes</h2>
+    <p>Quotes provided through this website are estimates based on the information you provide. Final pricing is confirmed before service begins and may be adjusted if the actual scope of work differs materially from what was described.</p>
+    <h2>Scheduling changes</h2>
+    <p>We ask that you notify us as early as possible if you need to reschedule or cancel a booking so we can adjust our team's schedule accordingly.</p>
+    <h2>Access to your property</h2>
+    <p>You are responsible for providing safe, reasonable access to the areas being cleaned, including any keys, codes, or building/concierge arrangements needed on the day of service.</p>
+    <h2>Service satisfaction</h2>
+    <p>If you're not satisfied with a completed cleaning, contact us within 24 hours so we can address the issue.</p>
+    <h2>Limitation of liability</h2>
+    <p>Neat Squad will take reasonable care with your property. Please secure or point out fragile, valuable, or damage-prone items before service begins.</p>
+    <h2>Changes to these terms</h2>
+    <p>We may update these terms from time to time; the most recent version will always be posted on this page.</p>
+    <h2>Contact us</h2>
+    <p>Questions about these terms can be sent to <a href="mailto:{{ site.email }}">{{ site.email }}</a>.</p>
+  </div>
+</section>

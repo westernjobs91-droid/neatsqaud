@@ -1,0 +1,68 @@
+---
+layout: layouts/base.njk
+title: "About Neat Squad | GTA Cleaning Company"
+description: "Learn about Neat Squad, a Greater Toronto Area cleaning company focused on reliable, detail-oriented house, office, and exterior cleaning."
+---
+{% from "partials/icons.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    {% set crumbs = [{label: "About"}] %}
+    {% include "partials/breadcrumbs.njk" %}
+    <h1>Built to make cleaning one less thing you worry about</h1>
+    <p class="lede">Neat Squad is a Greater Toronto Area cleaning company focused on one thing: showing up, doing careful work, and making it effortless to book.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-2" style="gap:3rem;align-items:start">
+      <div class="prose">
+        <h2>Our story</h2>
+        <p>Neat Squad started with a simple idea: cleaning services in the GTA should be easy to book, consistent in quality, and priced honestly — no vague estimates, no disappearing cleaners, no guesswork about what's included.</p>
+        <p>We work with homeowners who want their weekends back, landlords and tenants who need a home turned around fast between tenants, and offices that want a consistently tidy space for staff and clients. Whatever the job, we bring the same checklist-driven approach every time.</p>
+        <h2>Our approach</h2>
+        <p>Every booking starts with understanding your space and your priorities. We confirm scope and pricing upfront, send a team that knows exactly what to do, and follow up afterward to make sure the job met your expectations.</p>
+      </div>
+      <div class="grid" style="gap:1.25rem">
+        <div class="card">
+          <div class="card-icon">{{ icon("check") }}</div>
+          <h3>Consistency</h3>
+          <p>The same detailed checklist every visit, so quality doesn't depend on who shows up.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ icon("clock") }}</div>
+          <h3>Reliability</h3>
+          <p>Clear scheduling, on-time arrivals, and easy rebooking for recurring cleans.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">{{ icon("leaf") }}</div>
+          <h3>Care</h3>
+          <p>We treat every home and office like it's our own, and offer eco-conscious product options on request.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container text-center">
+    <span class="eyebrow">Service area</span>
+    <h2>Proudly serving the entire Greater Toronto Area</h2>
+    <p class="lede" style="margin:0 auto 2rem">From downtown condos to suburban homes and offices across the region.</p>
+    <div class="grid grid-4" style="text-align:left">
+      {% for loc in locations %}
+      <a class="card" href="/service-areas/{{ loc.slug }}/" style="text-decoration:none">
+        <h3 style="margin-bottom:0.25rem">{{ loc.name }}</h3>
+        <p style="margin:0;color:var(--color-ink-soft);font-size:0.9rem">{{ loc.region }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {% include "partials/cta-band.njk" %}
+  </div>
+</section>

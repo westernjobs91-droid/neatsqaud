@@ -1,0 +1,56 @@
+---
+layout: layouts/base.njk
+title: "Frequently Asked Questions | Neat Squad"
+description: "Answers to common questions about booking, pricing, and what to expect from Neat Squad's house, office, and exterior cleaning services in the GTA."
+---
+{% set faqs = [
+  { q: "How do I book a cleaning with Neat Squad?", a: "Fill out the quote form on our Contact page or call us directly. Tell us about your space and preferred schedule, and we'll follow up with a personalized quote and available time slots." },
+  { q: "How is pricing determined?", a: "Pricing depends on factors like square footage, number of rooms or washrooms, the condition of the space, and how often you'd like service. We provide a clear, upfront quote before any work begins — no hidden fees." },
+  { q: "Which areas of the GTA do you serve?", a: "We serve homes and businesses across the Greater Toronto Area, including Toronto, Mississauga, Brampton, Vaughan, Markham, Richmond Hill, Oakville, Etobicoke, Scarborough, and North York. See our Service Areas page for details." },
+  { q: "Do I need to be home during the cleaning?", a: "No — many clients provide entry instructions (a key, code, or concierge arrangement) and go about their day. If you'd prefer to be present, that works too." },
+  { q: "Do you bring your own cleaning supplies and equipment?", a: "Yes, our team arrives fully equipped. If you have specific product preferences or sensitivities, let us know when you book and we'll accommodate where possible." },
+  { q: "Can I set up a recurring cleaning schedule?", a: "Yes — weekly, biweekly, and monthly recurring cleanings are available for both homes and offices, and you can adjust or pause your schedule as needed." },
+  { q: "What if I'm not happy with a cleaning?", a: "Let us know within 24 hours and we'll work with you to make it right, whether that's a follow-up visit or adjusting future bookings." },
+  { q: "How far in advance should I book?", a: "For one-time deep cleans or move-in/move-out cleans, we recommend booking at least a few days ahead, especially around month-end. Recurring clients can set a standing schedule." }
+] %}
+<section class="page-hero">
+  <div class="container">
+    {% set crumbs = [{label: "FAQ"}] %}
+    {% include "partials/breadcrumbs.njk" %}
+    <h1>Frequently Asked Questions</h1>
+    <p class="lede">Everything you need to know about booking Neat Squad.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="faq-list prose" style="max-width:820px;margin:0 auto">
+      {% for item in faqs %}
+      <details class="faq-item">
+        <summary class="faq-question">{{ item.q }} <span class="plus">+</span></summary>
+        <div class="faq-answer">{{ item.a }}</div>
+      </details>
+      {% endfor %}
+    </div>
+    <div class="text-center" style="margin-top:2.5rem">
+      <p class="lede" style="margin:0 auto 1rem">Still have questions?</p>
+      <a class="btn btn-accent" href="/contact/">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {% for item in faqs %}
+    {
+      "@type": "Question",
+      "name": {{ item.q | dump | safe }},
+      "acceptedAnswer": { "@type": "Answer", "text": {{ item.a | dump | safe }} }
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>

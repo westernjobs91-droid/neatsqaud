@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+title: "Cleaning Services in the GTA | Neat Squad"
+description: "Explore Neat Squad's full range of cleaning services across the Greater Toronto Area: house, office, driveway, deep cleaning, and carpet & upholstery cleaning."
+---
+{% from "partials/icons.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    {% set crumbs = [{label: "Services"}] %}
+    {% include "partials/breadcrumbs.njk" %}
+    <h1>Cleaning services for every space</h1>
+    <p class="lede">House, office, exterior, and specialty cleaning — all backed by the same detail-driven checklist, across the entire GTA.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-3">
+      {% for s in services %}
+      <div class="card">
+        <div class="card-icon">{{ icon(s.icon) }}</div>
+        <h3><a href="/services/{{ s.slug }}/">{{ s.name }}</a></h3>
+        <p>{{ s.heroSubheadline }}</p>
+        <a class="card-link" href="/services/{{ s.slug }}/">Learn more →</a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    {% include "partials/cta-band.njk" %}
+  </div>
+</section>

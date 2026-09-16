@@ -1,0 +1,50 @@
+---
+layout: layouts/base.njk
+title: "Gallery | Neat Squad Cleaning Results Across the GTA"
+description: "See the kind of results Neat Squad delivers on house, office, and driveway cleaning projects across the Greater Toronto Area."
+---
+<section class="page-hero">
+  <div class="container">
+    {% set crumbs = [{label: "Gallery"}] %}
+    {% include "partials/breadcrumbs.njk" %}
+    <h1>Our work speaks for itself</h1>
+    <p class="lede">A look at the kind of transformations our team delivers. Real project photos are added here as jobs are completed.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="notice-box">
+      This page uses placeholder before/after panels. Swap each <code>.ba-visual</code> block for real project photos as they become available — real photos build far more trust than illustrations.
+    </div>
+    <div class="grid grid-3">
+      {% set showcases = [
+        { title: "Full Home Deep Clean", desc: "Kitchen, bathrooms, and living areas restored to spotless.", tag: "House Cleaning" },
+        { title: "Downtown Office Refresh", desc: "Weekly janitorial service for a Toronto office suite.", tag: "Office Cleaning" },
+        { title: "Driveway Pressure Wash", desc: "Years of grime and salt stains lifted from a concrete driveway.", tag: "Driveway Cleaning" },
+        { title: "Move-Out Turnover", desc: "End-of-lease deep clean, ready for the next tenant.", tag: "Move-In/Move-Out" },
+        { title: "Sofa & Carpet Refresh", desc: "Steam-cleaned upholstery and carpet, stain and odor treated.", tag: "Carpet & Upholstery" },
+        { title: "Post-Move Deep Clean", desc: "Every surface detailed before move-in day.", tag: "Deep Cleaning" }
+      ] %}
+      {% for item in showcases %}
+      <div class="ba-item">
+        <div class="ba-visual">
+          <div class="ba-before">Before</div>
+          <div class="ba-after">After</div>
+        </div>
+        <div class="ba-caption">
+          <span class="tag-pill">{{ item.tag }}</span>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.desc }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container">
+    {% include "partials/cta-band.njk" %}
+  </div>
+</section>

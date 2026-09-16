@@ -1,0 +1,30 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "@id": "{{ site.url }}/#business",
+  "name": "{{ site.name }}",
+  "url": "{{ site.url }}",
+  "telephone": "{{ site.phone }}",
+  "email": "{{ site.email }}",
+  "image": "{{ site.url }}/images/og-image.svg",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.address.street }}",
+    "addressLocality": "{{ site.address.city }}",
+    "addressRegion": "{{ site.address.region }}",
+    "postalCode": "{{ site.address.postalCode }}",
+    "addressCountry": "{{ site.address.country }}"
+  },
+  "areaServed": [
+    {% for loc in locations %}
+    { "@type": "City", "name": "{{ loc.name }}" }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "19:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "08:00", "closes": "17:00" }
+  ]
+}
+</script>

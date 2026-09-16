@@ -1,0 +1,50 @@
+{% from "partials/icons.njk" import icon %}
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="/" class="brand" style="color:#fff">
+          <span class="brand-mark" style="color:#fff">{{ icon("sparkles") }}</span>
+          {{ site.name }}
+        </a>
+        <p>Professional house, office, and exterior cleaning across the Greater Toronto Area — reliable, detail-oriented, and easy to book.</p>
+        <div class="footer-social">
+          <a href="{{ site.social.facebook }}" aria-label="Neat Squad on Facebook">{{ icon("facebook") }}</a>
+          <a href="{{ site.social.instagram }}" aria-label="Neat Squad on Instagram">{{ icon("instagram") }}</a>
+          <a href="{{ site.social.google }}" aria-label="Neat Squad on Google">{{ icon("google") }}</a>
+        </div>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul class="footer-links">
+          {% for s in services %}
+          <li><a href="/services/{{ s.slug }}/">{{ s.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div>
+        <h4>Service Areas</h4>
+        <ul class="footer-links">
+          {% for loc in locations %}
+          <li><a href="/service-areas/{{ loc.slug }}/">{{ loc.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul class="footer-links">
+          <li><a href="tel:{{ site.phoneHref }}">{{ icon("phone") }} {{ site.phone }}</a></li>
+          <li><a href="mailto:{{ site.email }}">{{ icon("mail") }} {{ site.email }}</a></li>
+          <li>{{ icon("pin") }} {{ site.address.street }}, {{ site.address.city }}, {{ site.address.region }}</li>
+          <li><a href="/contact/">Request a Free Quote →</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© {% year %} {{ site.name }}. All rights reserved.</span>
+      <span>
+        <a href="/privacy-policy/">Privacy Policy</a> · <a href="/terms/">Terms of Service</a>
+      </span>
+    </div>
+  </div>
+</footer>

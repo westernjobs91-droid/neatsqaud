@@ -1,0 +1,462 @@
+[
+  {
+    "slug": "toronto",
+    "name": "Toronto",
+    "region": "City of Toronto",
+    "metaTitle": "Cleaning Services in Toronto | Neat Squad",
+    "metaDescription": "Neat Squad provides trusted residential and commercial cleaning across Toronto, from downtown condos to King West offices. Insured and flexible. Book today.",
+    "heroHeadline": "Toronto's Trusted Home & Office Cleaning Team",
+    "intro": "Toronto's skyline is full of high-rise condos, historic semis, and busy commercial storefronts, and each one needs a different cleaning approach. Neat Squad works across the downtown core and surrounding neighbourhoods, coordinating with building concierge and property managers when needed so condo cleans go smoothly from the lobby to your door.\n\nWhether you run a small retail space on Queen Street or need regular cleaning for a rented loft in Liberty Village, our teams handle Toronto's mix of old and new buildings. We know parking is tight and elevators book up, so we plan our visits around your building's rules, not the other way around.",
+    "neighborhoods": [
+      "The Annex",
+      "Leslieville",
+      "Liberty Village",
+      "Yorkville",
+      "The Beaches",
+      "Roncesvalles",
+      "King West"
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Condo & Building Savvy",
+        "description": "We're used to booking elevators, signing in with concierge, and following cleaning policies across downtown Toronto buildings."
+      },
+      {
+        "title": "Flexible Scheduling",
+        "description": "Early morning, evening, or weekend visits are available to fit around busy households and commercial operating hours."
+      },
+      {
+        "title": "Careful, Detail-Oriented Cleaners",
+        "description": "Every cleaner follows the same detailed checklist and treats your Toronto home or office with care, so quality never depends on who shows up."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Do you work with condo concierge and building access rules?",
+        "answer": "Yes, we regularly coordinate with concierge desks and property management to sign in and follow visitor or elevator booking procedures. Just let us know your building's specific requirements when you book."
+      },
+      {
+        "question": "Can you clean small commercial spaces like retail shops or offices?",
+        "answer": "Yes, we service small to mid-sized commercial spaces across Toronto, including retail storefronts and office suites. We can schedule cleanings before or after business hours to avoid disrupting your operations."
+      },
+      {
+        "question": "Is parking an issue for your cleaning teams downtown?",
+        "answer": "Our teams are familiar with Toronto's downtown parking limitations and plan accordingly, including using nearby paid lots when street parking isn't available. This is factored into scheduling rather than added as a surprise fee."
+      }
+    ]
+  },
+  {
+    "slug": "mississauga",
+    "name": "Mississauga",
+    "region": "Peel Region",
+    "metaTitle": "Cleaning Services in Mississauga | Neat Squad",
+    "metaDescription": "Reliable home and commercial cleaning in Mississauga, from Port Credit condos to Square One offices. Neat Squad is insured and local. Book a cleaning now.",
+    "heroHeadline": "Professional Cleaning Services in Mississauga",
+    "intro": "Mississauga pairs waterfront condo towers near Port Credit with sprawling suburban homes further inland, and Neat Squad's teams are set up to handle both. We clean everything from single-family houses with driveways and backyards to high-rise units close to the lake, adjusting our approach to the property type each visit.\n\nAs one of the GTA's major business hubs, Mississauga is also home to countless offices and retail units around Square One and along Hurontario Street. We offer recurring commercial cleaning plans built around your business hours, so your space is ready before staff or customers walk in.",
+    "neighborhoods": [
+      "Port Credit",
+      "Streetsville",
+      "Cooksville",
+      "Meadowvale",
+      "Erin Mills",
+      "Clarkson",
+      "Malton"
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Experience With Detached Homes",
+        "description": "Our teams are comfortable tackling larger Mississauga houses, including multi-level cleans and finished basements."
+      },
+      {
+        "title": "Commercial Reliability",
+        "description": "We build recurring schedules around your office or retail hours so cleaning never interrupts your workday."
+      },
+      {
+        "title": "Local Familiarity",
+        "description": "From Port Credit to Meadowvale, our crews know Mississauga's neighbourhoods and plan routes and timing accordingly."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Do you clean larger detached homes with basements?",
+        "answer": "Yes, many Mississauga homes we service are two or three storeys with finished basements, and our standard visits are scoped to cover the full home. Let us know your square footage when booking so we can quote accurately."
+      },
+      {
+        "question": "Can you set up recurring cleaning for an office near Square One?",
+        "answer": "Yes, we offer weekly, biweekly, and monthly commercial plans and can schedule around your business hours, including before-open or after-close cleaning. We'll work with you to find a routine that keeps disruption minimal."
+      },
+      {
+        "question": "Do you service condo buildings as well as houses?",
+        "answer": "Yes, we clean condos throughout Mississauga, including buildings near the waterfront and along the Hurontario corridor. We can coordinate with your building's concierge or management if visitor sign-in is required."
+      }
+    ]
+  },
+  {
+    "slug": "brampton",
+    "name": "Brampton",
+    "region": "Peel Region",
+    "metaTitle": "Cleaning Services in Brampton | Neat Squad",
+    "metaDescription": "Neat Squad delivers dependable home and commercial cleaning across Brampton's growing family neighbourhoods and business parks. Insured. Book online today.",
+    "heroHeadline": "Brampton Home & Commercial Cleaning You Can Trust",
+    "intro": "Brampton is one of the fastest-growing cities in the GTA, with new subdivisions and family homes going up alongside established neighbourhoods. Neat Squad serves houses of every age, from newer builds near Mount Pleasant to older properties closer to downtown Brampton, giving each the same careful attention.\n\nWith a large and active industrial and commercial base, Brampton is also home to warehouses, offices, and retail plazas that need consistent upkeep. We work with property managers and small business owners to set up cleaning schedules that match shift patterns and busy periods.",
+    "neighborhoods": [
+      "Bramalea",
+      "Springdale",
+      "Mount Pleasant",
+      "Heart Lake",
+      "Fletcher's Creek",
+      "Downtown Brampton",
+      "Sandalwood"
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Built for Family Homes",
+        "description": "We understand the needs of busy Brampton households, from playrooms to kitchens that see heavy daily use."
+      },
+      {
+        "title": "Commercial & Industrial Ready",
+        "description": "Our teams can handle offices, retail units, and light industrial spaces on schedules that fit shift-based operations."
+      },
+      {
+        "title": "Growing With Brampton",
+        "description": "As new communities are built across the city, we continue expanding our coverage to reach them promptly."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Do you service newer subdivisions as well as older Brampton neighbourhoods?",
+        "answer": "Yes, we clean homes throughout Brampton regardless of when they were built, from newer communities near Mount Pleasant to established areas near downtown. Our booking process is the same no matter the neighbourhood."
+      },
+      {
+        "question": "Can you clean commercial units in Brampton's business parks?",
+        "answer": "Yes, we service offices, retail plazas, and light industrial units across Brampton's commercial areas. We can schedule around shift changes or off-hours if your operation runs outside a typical nine-to-five."
+      },
+      {
+        "question": "Do you offer recurring cleaning for busy family homes?",
+        "answer": "Yes, weekly and biweekly recurring visits are popular with Brampton families managing busy schedules. We can adjust the plan seasonally or as your household's needs change."
+      }
+    ]
+  },
+  {
+    "slug": "vaughan",
+    "name": "Vaughan",
+    "region": "York Region",
+    "metaTitle": "Cleaning Services in Vaughan | Neat Squad",
+    "metaDescription": "Neat Squad offers detailed home and office cleaning in Vaughan, covering Woodbridge, Maple, and Kleinburg. Insured and professional. Book your cleaning today.",
+    "heroHeadline": "Trusted Cleaning Services for Vaughan Homes & Offices",
+    "intro": "Vaughan is known for large, well-appointed homes and a strong sense of community across neighbourhoods like Woodbridge and Maple, and Neat Squad tailors its cleaning to match. Many Vaughan properties feature multiple bathrooms, finished basements, and formal living spaces that benefit from a thorough, detail-oriented clean.\n\nVaughan is also a major commercial and logistics centre for the GTA, with office parks and retail centres near Highway 400 and the Vaughan Metropolitan Centre. We support local businesses with consistent, scheduled cleaning that keeps offices and storefronts presentable.",
+    "neighborhoods": [
+      "Woodbridge",
+      "Maple",
+      "Kleinburg",
+      "Concord",
+      "Vellore Village",
+      "Thornhill",
+      "Sonoma Heights"
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Detail-Oriented on Larger Homes",
+        "description": "We're experienced with Vaughan's spacious homes, giving formal living areas and finished basements the same care as everyday rooms."
+      },
+      {
+        "title": "Business Park Experience",
+        "description": "Our commercial teams service offices and retail spaces near the Vaughan Metropolitan Centre and Highway 400 corridor."
+      },
+      {
+        "title": "Consistent, Reliable Crews",
+        "description": "We aim to send familiar cleaners to your Vaughan property so you get a consistent standard visit after visit."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Can you handle larger homes with finished basements?",
+        "answer": "Yes, many Vaughan homes we clean include finished basements, multiple bathrooms, and formal dining or living rooms, and our visits are scoped to cover the full property. We recommend sharing your home's layout when booking so we can quote accurately."
+      },
+      {
+        "question": "Do you clean offices near the Vaughan Metropolitan Centre?",
+        "answer": "Yes, we provide commercial cleaning for offices and retail spaces throughout Vaughan, including near the VMC and along the Highway 400 corridor. We can set up a recurring schedule around your operating hours."
+      },
+      {
+        "question": "Do you offer one-time deep cleans for move-ins or special occasions?",
+        "answer": "Yes, one-time deep cleans are available for move-ins, move-outs, or before hosting an event at your Vaughan home. Just let us know the occasion so we can plan the visit appropriately."
+      }
+    ]
+  },
+  {
+    "slug": "markham",
+    "name": "Markham",
+    "region": "York Region",
+    "metaTitle": "Cleaning Services in Markham | Neat Squad",
+    "metaDescription": "Neat Squad provides thorough home and office cleaning across Markham, from Unionville to Cornell. Trusted, insured cleaners. Book your Markham cleaning today.",
+    "heroHeadline": "Markham Home & Office Cleaning, Done Right",
+    "intro": "Markham combines heritage areas like Unionville's historic main street with newer master-planned communities such as Cornell and Berczy Village, and Neat Squad's cleaners adapt to whichever type of home they're working in. Many Markham houses are larger family homes, and we scope our visits to cover every level thoroughly.\n\nMarkham is also known as one of Canada's technology and business hubs, with a dense concentration of corporate offices along Highway 7 and Warden Avenue. We offer commercial cleaning packages designed for office environments, including reception areas, boardrooms, and shared kitchens.",
+    "neighborhoods": [
+      "Unionville",
+      "Cornell",
+      "Milliken",
+      "Berczy Village",
+      "Cathedraltown",
+      "Angus Glen",
+      "Markham Village"
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Comfortable With Larger Family Homes",
+        "description": "We regularly clean multi-storey Markham homes, giving bedrooms, bathrooms, and living spaces consistent attention."
+      },
+      {
+        "title": "Office Cleaning Expertise",
+        "description": "Our commercial teams are familiar with servicing corporate offices along Markham's Highway 7 tech corridor."
+      },
+      {
+        "title": "Respectful, Punctual Crews",
+        "description": "We arrive on schedule and treat your Markham home or office with the same care we'd give our own."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Do you clean homes in newer communities like Cornell?",
+        "answer": "Yes, we service homes throughout Markham, including newer planned communities like Cornell and Berczy Village as well as more established areas near Unionville. Our booking and pricing process is consistent across all Markham neighbourhoods."
+      },
+      {
+        "question": "Can you provide ongoing cleaning for offices along the Highway 7 corridor?",
+        "answer": "Yes, we offer recurring commercial cleaning for offices in Markham's business corridor, including common areas like kitchens and boardrooms. Schedules can be arranged around your team's working hours."
+      },
+      {
+        "question": "Is it possible to book a one-time deep clean before hosting family or guests?",
+        "answer": "Yes, a one-time deep clean is a popular option ahead of holidays or family gatherings in Markham homes. We recommend booking a few days in advance to secure your preferred time."
+      }
+    ]
+  },
+  {
+    "slug": "richmond-hill",
+    "name": "Richmond Hill",
+    "region": "York Region",
+    "metaTitle": "Cleaning Services in Richmond Hill | Neat Squad",
+    "metaDescription": "Neat Squad offers dependable home and commercial cleaning in Richmond Hill, covering Oak Ridges, Mill Pond, and Bayview Hill. Insured. Book a cleaning today.",
+    "heroHeadline": "Richmond Hill Home & Commercial Cleaning Experts",
+    "intro": "Richmond Hill is known for its mature, tree-lined neighbourhoods like Mill Pond and larger executive homes around Bayview Hill, and Neat Squad brings a careful, detail-focused approach to each one. Many homes here have generous square footage, and we build our cleaning visits to match, covering every bedroom, bathroom, and common space.\n\nThe city also has a growing base of small businesses and offices, particularly along Yonge Street and near Highway 7. We support these businesses with scheduled cleaning that keeps storefronts and offices tidy without interrupting daily operations.",
+    "neighborhoods": [
+      "Oak Ridges",
+      "Mill Pond",
+      "Bayview Hill",
+      "Jefferson",
+      "Langstaff",
+      "Westbrook",
+      "Harding"
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Suited to Executive Homes",
+        "description": "Our teams are experienced with Richmond Hill's larger properties, taking extra care with hardwood, tile, and formal rooms."
+      },
+      {
+        "title": "Yonge Street Business Support",
+        "description": "We provide commercial cleaning for shops and offices along Richmond Hill's busy Yonge Street corridor."
+      },
+      {
+        "title": "Careful, Consistent Service",
+        "description": "We aim to keep the same cleaners on your Richmond Hill account so you always know who's coming and what to expect."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Do you handle larger executive-style homes in areas like Bayview Hill?",
+        "answer": "Yes, we regularly clean larger Richmond Hill homes with multiple levels and finished basements, and we scope the visit length to match the home's size. Sharing square footage when booking helps us quote accurately."
+      },
+      {
+        "question": "Can you clean small businesses along Yonge Street?",
+        "answer": "Yes, we service small retail and office spaces throughout Richmond Hill, including along the Yonge Street corridor. We can schedule visits before opening or after closing to avoid disrupting customers."
+      },
+      {
+        "question": "Do you offer seasonal deep cleaning?",
+        "answer": "Yes, seasonal deep cleans are available for Richmond Hill homes, which many clients book around spring or before the winter holidays. These visits cover areas that don't get attention during a standard clean."
+      }
+    ]
+  },
+  {
+    "slug": "oakville",
+    "name": "Oakville",
+    "region": "Halton Region",
+    "metaTitle": "Cleaning Services in Oakville | Neat Squad",
+    "metaDescription": "Neat Squad provides premium home and office cleaning in Oakville, from Bronte to Glen Abbey. Trusted, insured cleaners. Book your Oakville cleaning today.",
+    "heroHeadline": "Premium Home & Office Cleaning in Oakville",
+    "intro": "Oakville's mix of lakeside character homes in Old Oakville and upscale properties around Glen Abbey calls for a polished, attentive standard of cleaning, and that's exactly what Neat Squad delivers. We treat hardwood floors, stone counters, and detailed finishes with the care they deserve on every visit.\n\nBeyond residential work, Oakville has a strong base of professional offices and boutique retail, particularly around Kerr Village and the downtown core. We offer commercial cleaning plans that keep these spaces looking as polished as the community around them.",
+    "neighborhoods": [
+      "Old Oakville",
+      "Bronte",
+      "Kerr Village",
+      "Glen Abbey",
+      "River Oaks",
+      "Joshua Creek",
+      "College Park"
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Detail-Focused Cleaning",
+        "description": "We take extra care with Oakville's higher-end finishes, from hardwood and stone to custom cabinetry."
+      },
+      {
+        "title": "Consistent, Trustworthy Teams",
+        "description": "We aim to send the same trained cleaners to your Oakville home or office so quality stays consistent visit to visit."
+      },
+      {
+        "title": "Downtown & Village Familiarity",
+        "description": "Our crews know Oakville's downtown core and village areas well, including narrower streets and older properties."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Do you have experience cleaning higher-end finishes and materials?",
+        "answer": "Yes, our cleaners are trained to work carefully with hardwood, natural stone, and other premium finishes common in Oakville homes. Let us know about any specific surfaces that need particular products or care."
+      },
+      {
+        "question": "Can you clean boutique retail or office spaces near downtown Oakville?",
+        "answer": "Yes, we service small commercial spaces throughout Oakville, including boutiques and offices near Kerr Village and the downtown core. We can schedule around your store or office hours to minimize disruption."
+      },
+      {
+        "question": "Do you clean homes near the lake in Bronte or Old Oakville?",
+        "answer": "Yes, we regularly service homes throughout Bronte and Old Oakville, including older character properties that sometimes need a bit more attention to detail. We're happy to discuss your home's specific layout when booking."
+      }
+    ]
+  },
+  {
+    "slug": "etobicoke",
+    "name": "Etobicoke",
+    "region": "City of Toronto",
+    "metaTitle": "Cleaning Services in Etobicoke | Neat Squad",
+    "metaDescription": "Neat Squad delivers reliable home and commercial cleaning in Etobicoke, from Mimico condos to Kingsway homes. Insured local cleaners. Book your cleaning today.",
+    "heroHeadline": "Etobicoke Home & Condo Cleaning You Can Rely On",
+    "intro": "Etobicoke offers a real mix of housing, from waterfront condo towers in Mimico and Humber Bay Shores to established family homes in The Kingsway, and Neat Squad adjusts its approach for each. We're comfortable coordinating condo access with concierge teams just as easily as we are cleaning a detached home's multiple bedrooms and bathrooms.\n\nWith easy access to the airport and major highways, Etobicoke is also home to numerous offices, warehouses, and retail spaces. We provide commercial cleaning that fits around business hours, whether that's a small office near Bloor Street or a retail unit closer to the lake.",
+    "neighborhoods": [
+      "Mimico",
+      "Long Branch",
+      "The Kingsway",
+      "Humber Bay Shores",
+      "Alderwood",
+      "New Toronto",
+      "Islington-City Centre West"
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Condo & House Flexibility",
+        "description": "We handle both waterfront condo units and larger Kingsway-area homes, adjusting our process to the property type."
+      },
+      {
+        "title": "Building Coordination",
+        "description": "We're comfortable working with concierge and property management for condo access across Etobicoke's towers."
+      },
+      {
+        "title": "Airport-Area Commercial Reach",
+        "description": "We service offices and commercial spaces near Pearson and the highway corridors that run through Etobicoke."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Do you coordinate with concierge for condo cleanings in areas like Humber Bay Shores?",
+        "answer": "Yes, we routinely work with concierge desks and building management to sign in and follow visitor procedures for Etobicoke condo towers. Just share your building's specific requirements when you book."
+      },
+      {
+        "question": "Can you clean larger detached homes in neighbourhoods like The Kingsway?",
+        "answer": "Yes, we service larger family homes throughout Etobicoke, including multi-storey properties with finished basements. We scope the visit to your home's size so nothing gets rushed."
+      },
+      {
+        "question": "Do you offer commercial cleaning near the airport or highway corridors?",
+        "answer": "Yes, we clean offices and light commercial spaces in Etobicoke's airport-adjacent business areas. We can schedule around shift patterns or business hours to keep things running smoothly."
+      }
+    ]
+  },
+  {
+    "slug": "scarborough",
+    "name": "Scarborough",
+    "region": "City of Toronto",
+    "metaTitle": "Cleaning Services in Scarborough | Neat Squad",
+    "metaDescription": "Neat Squad offers dependable home and commercial cleaning across Scarborough, from Guildwood to Agincourt. Insured, friendly cleaners. Book your cleaning today.",
+    "heroHeadline": "Scarborough Home & Business Cleaning Services",
+    "intro": "Scarborough is one of Toronto's largest and most diverse areas, with everything from bungalows near Guildwood's bluffs to busy commercial strips around Agincourt and Malvern. Neat Squad's teams are used to this variety and bring the same consistent standard to every home, no matter its age or style.\n\nMany Scarborough households run on tight schedules, and local businesses along Kennedy Road, Markham Road, and Sheppard Avenue depend on clean, welcoming spaces for customers. We build cleaning schedules around your routine, whether that's a weekly home visit or a recurring commercial contract.",
+    "neighborhoods": [
+      "Guildwood",
+      "Agincourt",
+      "Cliffside",
+      "Highland Creek",
+      "Malvern",
+      "Bendale",
+      "West Hill"
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Wide Range of Home Styles",
+        "description": "From bungalows near the bluffs to larger homes further north, our teams adapt to Scarborough's varied housing stock."
+      },
+      {
+        "title": "Community-Focused Service",
+        "description": "We take the time to understand each Scarborough household's routine and priorities before setting a cleaning plan."
+      },
+      {
+        "title": "Commercial Strip Experience",
+        "description": "We service retail and office spaces along Scarborough's main commercial corridors on flexible schedules."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Do you service both older bungalows and newer homes in Scarborough?",
+        "answer": "Yes, we clean homes of all ages across Scarborough, from older bungalows near the bluffs to newer builds further north. Our process is the same regardless of the home's age or layout."
+      },
+      {
+        "question": "Can you clean retail units along Kennedy Road or Markham Road?",
+        "answer": "Yes, we provide commercial cleaning for retail and office spaces along Scarborough's main commercial strips. We can schedule visits outside of business hours to avoid disrupting customers."
+      },
+      {
+        "question": "Do you offer recurring cleaning plans for busy households?",
+        "answer": "Yes, weekly and biweekly recurring plans are common among Scarborough clients balancing work and family schedules. We can adjust frequency at any time as your needs change."
+      }
+    ]
+  },
+  {
+    "slug": "north-york",
+    "name": "North York",
+    "region": "City of Toronto",
+    "metaTitle": "Cleaning Services in North York | Neat Squad",
+    "metaDescription": "Neat Squad provides trusted home and office cleaning in North York, covering Willowdale, Don Mills, and Bayview Village. Insured. Book a cleaning today.",
+    "heroHeadline": "North York Home & Office Cleaning Services",
+    "intro": "North York combines dense condo clusters around Willowdale and Yonge-Sheppard with quieter, established neighbourhoods like Don Mills and Bayview Village, and Neat Squad adapts its service to fit each. High-rise units get careful attention to compact kitchens and bathrooms, while larger homes receive a more thorough, room-by-room clean.\n\nAs a major office and commercial hub for the city, North York has no shortage of businesses along Yonge Street and Sheppard Avenue. We offer commercial cleaning designed around office hours, keeping workplaces presentable without interrupting your team's day.",
+    "neighborhoods": [
+      "Willowdale",
+      "Don Mills",
+      "Bayview Village",
+      "Newtonbrook",
+      "Bathurst Manor",
+      "Downsview",
+      "Hillcrest Village"
+    ],
+    "whyChooseUs": [
+      {
+        "title": "Condo Cleaning Know-How",
+        "description": "We're experienced with North York's high-rise condo buildings, including coordinating access with concierge teams."
+      },
+      {
+        "title": "Comfortable With Larger Homes Too",
+        "description": "In neighbourhoods like Don Mills, our teams handle larger properties with the same thoroughness as smaller units."
+      },
+      {
+        "title": "Office-Friendly Scheduling",
+        "description": "We schedule commercial cleans around your office hours along the Yonge-Sheppard and Yonge-Eglinton corridors."
+      }
+    ],
+    "localFaqs": [
+      {
+        "question": "Do you coordinate with condo buildings in areas like Willowdale?",
+        "answer": "Yes, we regularly work with concierge and building management across North York's condo towers to follow visitor sign-in and access procedures. Let us know your building's requirements when booking."
+      },
+      {
+        "question": "Can you clean larger homes in neighbourhoods like Don Mills?",
+        "answer": "Yes, we service larger detached and semi-detached homes throughout North York, including multi-level properties with finished basements. We scope the visit to the home's size for a thorough clean."
+      },
+      {
+        "question": "Do you offer office cleaning along the Yonge Street corridor?",
+        "answer": "Yes, we provide recurring commercial cleaning for offices along North York's Yonge Street and Sheppard Avenue business areas. We can schedule visits before or after standard office hours."
+      }
+    ]
+  }
+]

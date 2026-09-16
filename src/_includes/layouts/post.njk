@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+---
+<article class="section">
+  <div class="container prose">
+    {% set crumbs = [{label: "Blog", url: "/blog/"}, {label: title}] %}
+    <div style="margin-bottom:1.5rem">
+      <nav class="breadcrumbs" aria-label="Breadcrumb" style="color:var(--color-ink-soft)">
+        <a href="/">Home</a> <span class="sep">/</span> <a href="/blog/">Blog</a> <span class="sep">/</span> <span aria-current="page">{{ title }}</span>
+      </nav>
+    </div>
+    <h1>{{ title }}</h1>
+    <p class="blog-post-meta">
+      {% for tag in tags %}<span class="tag-pill">{{ tag }}</span>{% endfor %}
+      Published {{ date | postDate }}
+    </p>
+    {{ content | safe }}
+    <div style="margin-top:3rem">
+      {% include "partials/cta-band.njk" %}
+    </div>
+  </div>
+</article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ title | dump | safe }},
+  "description": {{ description | dump | safe }},
+  "datePublished": "{{ date | isoDate }}",
+  "author": { "@type": "Organization", "name": {{ site.name | dump | safe }} },
+  "publisher": { "@id": "{{ site.url }}/#business" }
+}
+</script>

@@ -1,0 +1,26 @@
+{
+  "name": "neatsqaud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/westernjobs91-droid/neatsqaud.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/westernjobs91-droid/neatsqaud/issues"
+  },
+  "homepage": "https://github.com/westernjobs91-droid/neatsqaud#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "luxon": "^3.7.2"
+  }
+}

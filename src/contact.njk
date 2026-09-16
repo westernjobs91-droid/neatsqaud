@@ -1,0 +1,47 @@
+---
+layout: layouts/base.njk
+title: "Contact Neat Squad | Free Cleaning Quote in the GTA"
+description: "Request a free, no-obligation cleaning quote from Neat Squad. Serving homes and businesses across the Greater Toronto Area. Call, email, or book online."
+---
+{% from "partials/icons.njk" import icon %}
+
+<section class="page-hero">
+  <div class="container">
+    {% set crumbs = [{label: "Contact"}] %}
+    {% include "partials/breadcrumbs.njk" %}
+    <h1>Get your free cleaning quote</h1>
+    <p class="lede">Tell us about your space and we'll get back to you within one business day.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-2" style="gap:3rem;align-items:start">
+      <div class="card">
+        {% include "partials/quote-form.njk" %}
+      </div>
+      <div class="grid" style="gap:1.5rem">
+        <div class="card">
+          <h3>Contact details</h3>
+          <ul class="footer-links" style="color:var(--color-ink)">
+            <li>{{ icon("phone") }} <a href="tel:{{ site.phoneHref }}">{{ site.phone }}</a></li>
+            <li>{{ icon("mail") }} <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+            <li>{{ icon("pin") }} {{ site.address.street }}, {{ site.address.city }}, {{ site.address.region }}</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Hours</h3>
+          <ul class="footer-links" style="color:var(--color-ink)">
+            {% for h in site.hours %}
+            <li>{{ icon("clock") }} {{ h.days }}: {{ h.hours }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Service area</h3>
+          <p>We serve homes and businesses across the Greater Toronto Area, including {{ locations[0].name }}, {{ locations[1].name }}, {{ locations[2].name }}, and more. <a href="/service-areas/">See all service areas →</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

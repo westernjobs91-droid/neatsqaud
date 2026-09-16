@@ -1,0 +1,470 @@
+[
+  {
+    "slug": "house-cleaning",
+    "name": "House Cleaning",
+    "icon": "home",
+    "metaTitle": "House Cleaning Services in the GTA | Neat Squad",
+    "metaDescription": "Reliable weekly, biweekly, and monthly house cleaning across the Greater Toronto Area. Book Neat Squad today and get a spotless home you can count on.",
+    "heroHeadline": "House Cleaning You Can Set Your Watch By",
+    "heroSubheadline": "Neat Squad delivers dependable recurring house cleaning to homes across the Greater Toronto Area.",
+    "overview": "Keeping a home consistently clean takes time most people simply don't have. Neat Squad's house cleaning service is built around your schedule, offering weekly, biweekly, or monthly visits that keep every room fresh, tidy, and sanitized without you having to lift a finger. Our team follows a consistent routine each visit, so your home gets the same careful attention every single time.\n\nWhether you're a busy family juggling work and kids, a professional who'd rather spend evenings relaxing than scrubbing floors, or simply someone who values a clean, calm living space, our recurring house cleaning plans are designed to fit real life across the GTA. You choose the frequency and the rooms that matter most, and we handle the rest with care and attention to detail.",
+    "benefits": [
+      {
+        "title": "Flexible Scheduling",
+        "description": "Choose weekly, biweekly, or monthly visits that fit around your work and family routine."
+      },
+      {
+        "title": "Consistent Results",
+        "description": "The same cleaning checklist is followed every visit so your home looks and feels the same fresh way each time."
+      },
+      {
+        "title": "More Free Time",
+        "description": "Get your evenings and weekends back instead of spending them on chores."
+      },
+      {
+        "title": "Healthier Home Environment",
+        "description": "Regular dusting, vacuuming, and disinfecting help cut down on allergens and household germs."
+      },
+      {
+        "title": "Customizable Focus Areas",
+        "description": "Ask us to prioritize specific rooms or tasks, like kitchens or bathrooms, on any given visit."
+      }
+    ],
+    "whatsIncluded": [
+      "Dusting of all reachable surfaces, shelves, and furniture",
+      "Vacuuming carpets and rugs throughout the home",
+      "Mopping hard floors in kitchens, bathrooms, and living areas",
+      "Cleaning and disinfecting kitchen countertops and sinks",
+      "Sanitizing bathroom fixtures, mirrors, and tile",
+      "Emptying trash and replacing liners",
+      "Making beds and tidying visible clutter",
+      "Wiping down light switches, door handles, and other high-touch points",
+      "Cleaning interior glass on doors and low windows"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Request a Free Quote",
+        "description": "Tell us about your home's size and how often you'd like it cleaned, and we'll put together a personalized quote."
+      },
+      {
+        "step": 2,
+        "title": "Confirm & Schedule",
+        "description": "Pick a day and time that works for you, and we'll lock in a recurring spot on our calendar."
+      },
+      {
+        "step": 3,
+        "title": "We Clean",
+        "description": "Our team arrives on schedule and works through your home following a consistent, detailed checklist."
+      },
+      {
+        "step": 4,
+        "title": "Walkthrough & Feedback",
+        "description": "We welcome a quick look-through and any feedback so future visits can be fine-tuned to your preferences."
+      }
+    ],
+    "pricingNote": "The cost of house cleaning depends on factors like the size of your home, the number of bedrooms and bathrooms, how often you'd like us to come, and the current condition of the space. Homes that are cleaned regularly typically cost less per visit than a one-time deep clean. Request a free, no-obligation quote and we'll give you a clear price based on your specific home.",
+    "faqs": [
+      {
+        "question": "Do I need to be home during the cleaning?",
+        "answer": "No, many of our GTA clients provide a key, garage code, or lockbox and are comfortable with us cleaning while they're at work or out. If you'd prefer to be home, that's completely fine too, whatever makes you comfortable."
+      },
+      {
+        "question": "Do you bring your own cleaning supplies and equipment?",
+        "answer": "Yes, our team typically brings the supplies and equipment needed for a standard cleaning. If you have specific products you'd like us to use, such as for allergies or sensitivities, just let us know in advance."
+      },
+      {
+        "question": "What's the difference between this and a deep clean?",
+        "answer": "Standard house cleaning is a maintenance-level clean focused on the everyday areas of your home on a recurring basis. A deep clean goes further into detail work like baseboards, inside appliances, and buildup that accumulates over time, and is a good starting point if it's been a while since your last thorough clean."
+      },
+      {
+        "question": "Can I change or skip a scheduled visit?",
+        "answer": "We understand plans change, so just reach out with as much notice as you can and we'll do our best to reschedule or adjust your visit."
+      },
+      {
+        "question": "What areas of the GTA do you service?",
+        "answer": "We serve homes across the Greater Toronto Area. If you're unsure whether your neighbourhood is covered, reach out and we'll confirm availability for your address."
+      }
+    ],
+    "idealFor": [
+      "Busy professionals who want a spotless home without spending their free time cleaning",
+      "Families juggling work, school, and activities who need consistent help around the house",
+      "Homeowners who want to maintain a clean space between occasional deep cleans",
+      "Anyone who values coming home to a tidy, fresh environment every week"
+    ]
+  },
+  {
+    "slug": "office-cleaning",
+    "name": "Office & Commercial Cleaning",
+    "icon": "office",
+    "metaTitle": "Office & Commercial Cleaning in the GTA | Neat Squad",
+    "metaDescription": "Neat Squad provides scheduled office and commercial cleaning for businesses across the Greater Toronto Area. Get a clean workspace, request a quote today.",
+    "heroHeadline": "A Cleaner Workplace for a Sharper Business",
+    "heroSubheadline": "Neat Squad keeps offices, retail spaces, and small commercial properties across the GTA clean and presentable.",
+    "overview": "A clean workplace says something about your business before a single word is spoken. Neat Squad's office and commercial cleaning service is built for businesses across the Greater Toronto Area that need a reliable, presentable space for employees, clients, and customers. We work around your operating hours, including evenings and weekends, so cleaning never interrupts your workday.\n\nFrom small offices and retail storefronts to shared workspaces and other commercial properties, we tailor a cleaning schedule and checklist to match how your space is actually used. Consistent janitorial service helps maintain a healthier environment for staff and leaves a strong first impression on everyone who walks through your door.",
+    "benefits": [
+      {
+        "title": "After-Hours Scheduling",
+        "description": "Cleaning happens before or after business hours, or on a schedule that fits around your team."
+      },
+      {
+        "title": "Professional First Impressions",
+        "description": "A consistently clean office and reception area helps clients and visitors see your business in its best light."
+      },
+      {
+        "title": "Healthier Workplace",
+        "description": "Routine disinfecting of high-touch surfaces helps support employee wellbeing and reduce sick days."
+      },
+      {
+        "title": "Customized Service Plans",
+        "description": "Cleaning frequency and task lists are built around your space, whether that's a small office or a multi-room commercial unit."
+      },
+      {
+        "title": "Consistent Point of Contact",
+        "description": "You'll have a straightforward way to communicate special requests or changes to your cleaning plan."
+      }
+    ],
+    "whatsIncluded": [
+      "Dusting desks, workstations, and common surfaces",
+      "Vacuuming carpeted areas and mopping hard floors",
+      "Cleaning and restocking washrooms",
+      "Emptying trash and recycling bins throughout the space",
+      "Disinfecting high-touch points like door handles, light switches, and railings",
+      "Wiping down kitchen or breakroom counters and appliances (exterior)",
+      "Cleaning interior glass, partitions, and mirrors",
+      "Tidying reception and common areas",
+      "Spot-cleaning entryway floors and mats"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Request a Quote",
+        "description": "Share your business type, square footage, and preferred cleaning frequency for a tailored quote."
+      },
+      {
+        "step": 2,
+        "title": "Walkthrough & Plan",
+        "description": "We discuss your space and priorities to build a cleaning checklist and schedule that fits your operations."
+      },
+      {
+        "step": 3,
+        "title": "We Clean On Schedule",
+        "description": "Our team arrives during your chosen window, including after-hours or weekends, to complete the agreed checklist."
+      },
+      {
+        "step": 4,
+        "title": "Ongoing Check-Ins",
+        "description": "We stay in touch to confirm everything meets expectations and adjust the plan as your business needs change."
+      }
+    ],
+    "pricingNote": "Commercial cleaning costs vary based on square footage, layout, number of washrooms, cleaning frequency, and the general condition of the space. A retail storefront and a multi-room office will have different needs, which is why every quote is based on a look at your specific property. Reach out for a free, no-obligation quote tailored to your business.",
+    "faqs": [
+      {
+        "question": "Can you clean outside of regular business hours?",
+        "answer": "Yes, we regularly schedule commercial cleaning in the evenings, early mornings, or on weekends so it doesn't disrupt your team or customers. Just let us know your preferred window when requesting a quote."
+      },
+      {
+        "question": "Do you offer one-time cleanings or only recurring contracts?",
+        "answer": "We can accommodate both one-time cleanings, such as before an event or after a move, and ongoing recurring service. Let us know what you're looking for and we'll put together options."
+      },
+      {
+        "question": "What types of businesses do you clean?",
+        "answer": "We work with a range of small to mid-sized commercial spaces across the GTA, including offices, retail stores, and similar properties. If you're not sure your space is a fit, reach out and we can discuss it."
+      },
+      {
+        "question": "Will the same cleaning team come each visit?",
+        "answer": "We aim for consistency wherever possible so your team gets familiar with the same cleaners, though scheduling can occasionally require adjustments. We'll always make sure whoever attends is briefed on your space and checklist."
+      },
+      {
+        "question": "How do you handle access to our building or office?",
+        "answer": "We'll work with you to arrange secure access, whether that's a key, fob, or building management coordination. Every business has different security needs, so we adapt to what works for your property."
+      }
+    ],
+    "idealFor": [
+      "Small to mid-sized offices that want a consistently clean space for staff and clients",
+      "Retail stores that need their storefront and floors looking sharp every day",
+      "Property managers coordinating cleaning for shared or commercial units",
+      "Businesses that need flexible after-hours cleaning that doesn't disrupt operations"
+    ]
+  },
+  {
+    "slug": "driveway-exterior-cleaning",
+    "name": "Driveway & Exterior Cleaning",
+    "icon": "driveway",
+    "metaTitle": "Driveway & Exterior Cleaning GTA | Neat Squad",
+    "metaDescription": "Professional pressure washing for driveways, walkways, siding, patios, and decks across the Greater Toronto Area. Restore your curb appeal, get a free quote.",
+    "heroHeadline": "Restore Your Curb Appeal, Inch by Inch",
+    "heroSubheadline": "Neat Squad's pressure washing service refreshes driveways, walkways, siding, and outdoor living spaces across the GTA.",
+    "overview": "Ontario winters and everyday weather take a toll on the outside of your home, leaving driveways, walkways, and siding covered in grime, salt residue, mildew, and built-up dirt. Neat Squad's exterior cleaning service uses pressure washing to lift away that buildup and bring surfaces back to looking fresh, without damaging the material underneath.\n\nWe clean driveways, walkways, patios, decks, and siding for homeowners across the Greater Toronto Area who want to boost their curb appeal, prep for a season of outdoor living, or simply keep their property looking well maintained. It's an easy way to make a big visual difference to the outside of your home.",
+    "benefits": [
+      {
+        "title": "Instant Curb Appeal",
+        "description": "A freshly washed driveway and exterior can transform the entire look of your property in a single visit."
+      },
+      {
+        "title": "Removes Built-Up Grime",
+        "description": "Pressure washing lifts dirt, salt stains, mildew, and algae that regular rinsing can't remove."
+      },
+      {
+        "title": "Helps Protect Surfaces",
+        "description": "Regular cleaning helps prevent long-term buildup and staining on concrete, wood, and siding."
+      },
+      {
+        "title": "Great Before Big Events",
+        "description": "A clean exterior is a simple way to prepare your home for a sale, listing photos, or a gathering."
+      },
+      {
+        "title": "Covers Multiple Surfaces",
+        "description": "One visit can address driveways, walkways, patios, decks, and siding together."
+      }
+    ],
+    "whatsIncluded": [
+      "Pressure washing of driveways and walkways",
+      "Cleaning of concrete or interlocking stone patios",
+      "Deck washing to remove dirt, mildew, and grey buildup",
+      "Exterior siding washing (where accessible and appropriate for the material)",
+      "Removal of surface algae, moss, and mildew stains",
+      "Spot treatment of oil or rust stains on concrete where possible",
+      "Clearing of debris from cleaned surfaces after washing",
+      "Adjustable pressure settings based on surface material"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Request a Free Quote",
+        "description": "Tell us which surfaces you'd like cleaned and their approximate size for an accurate quote."
+      },
+      {
+        "step": 2,
+        "title": "Confirm & Schedule",
+        "description": "We'll book a visit for a day with suitable weather conditions for exterior work."
+      },
+      {
+        "step": 3,
+        "title": "We Pressure Wash",
+        "description": "Our team cleans each surface using the appropriate pressure and technique for the material."
+      },
+      {
+        "step": 4,
+        "title": "Final Walkthrough",
+        "description": "We review the results with you and point out anything worth noting, like stains that may need extra attention over time."
+      }
+    ],
+    "pricingNote": "Pricing for driveway and exterior cleaning depends on the total surface area, the type of material, how many surfaces you'd like cleaned, and how heavy the buildup is. A small walkway and a large multi-surface property will naturally differ in cost. Request a free, no-obligation quote and we'll assess your specific property.",
+    "faqs": [
+      {
+        "question": "Is pressure washing safe for all surfaces?",
+        "answer": "Different materials require different pressure levels and techniques, which is why we adjust our approach based on what we're cleaning, such as concrete versus wood decking or siding. If a surface seems too delicate or worn for pressure washing, we'll let you know honestly before starting."
+      },
+      {
+        "question": "Will pressure washing remove oil stains from my driveway?",
+        "answer": "We can often improve the appearance of oil or rust stains, but some older or deeply set stains may not come out completely. We'll always be upfront about what results you can realistically expect before we begin."
+      },
+      {
+        "question": "What time of year is best for exterior cleaning?",
+        "answer": "Many homeowners in the GTA schedule cleaning in spring to remove winter salt and grime, or in fall to prep for the colder months, but we can generally work whenever weather conditions allow. We avoid scheduling during freezing temperatures or heavy rain."
+      },
+      {
+        "question": "Do I need to be home during the service?",
+        "answer": "Not necessarily, as long as we have access to the areas being cleaned and, if needed, an outdoor water source. We can coordinate access details with you ahead of time."
+      },
+      {
+        "question": "Will this damage my plants or landscaping?",
+        "answer": "We take care to work around landscaping and will avoid directing high-pressure water at delicate plants. If you have specific areas you're concerned about, just point them out before we start."
+      }
+    ],
+    "idealFor": [
+      "Homeowners preparing their property for spring or fall after months of buildup",
+      "Sellers wanting to boost curb appeal before listing photos or showings",
+      "Anyone hosting an outdoor gathering who wants a fresh-looking patio or deck",
+      "Property owners looking to maintain concrete, siding, and wood surfaces over time"
+    ]
+  },
+  {
+    "slug": "deep-cleaning-move-in-out",
+    "name": "Deep Cleaning & Move-In/Move-Out",
+    "icon": "sparkles",
+    "metaTitle": "Deep Cleaning & Move-In/Out Cleaning | Neat Squad GTA",
+    "metaDescription": "One-time deep cleaning and move-in/move-out cleaning for homes across the Greater Toronto Area. Start fresh in a spotless space, request your free quote now.",
+    "heroHeadline": "A Fresh Start, From Top to Bottom",
+    "heroSubheadline": "Neat Squad's deep cleaning and move-in/move-out service gets GTA homes spotless for a new chapter or a fresh reset.",
+    "overview": "Some cleaning jobs call for more than a regular tidy-up. Neat Squad's deep cleaning service is a thorough, detail-focused clean that tackles buildup in the places everyday cleaning tends to skip, like baseboards, inside appliances, grout lines, and behind furniture. It's ideal for homes that haven't had a deep clean in a while or that are ready for a true reset.\n\nOur move-in and move-out cleaning is built specifically for transitions, helping renters and homeowners across the Greater Toronto Area hand over or move into a space that's genuinely clean from corner to corner. Whether you're closing out a lease, prepping a home for new owners, or want your new place clean before you unpack, this service is designed to handle the intensive work in one visit.",
+    "benefits": [
+      {
+        "title": "Thorough, Detail-Level Cleaning",
+        "description": "Goes beyond surface cleaning to address baseboards, vents, and other frequently missed areas."
+      },
+      {
+        "title": "Great Starting Point",
+        "description": "A deep clean is the ideal way to reset your home before starting a regular recurring cleaning plan."
+      },
+      {
+        "title": "Stress Reduction During Moves",
+        "description": "Take one major task off your plate during an already busy move-in or move-out period."
+      },
+      {
+        "title": "Supports Lease and Sale Requirements",
+        "description": "Helps leave a rental in strong condition or presents a home well for new occupants."
+      },
+      {
+        "title": "Inside-Out Appliance Cleaning",
+        "description": "Includes attention to the interior of ovens, fridges, and other appliances upon request."
+      }
+    ],
+    "whatsIncluded": [
+      "Detailed cleaning of baseboards, trim, and door frames",
+      "Interior cleaning of ovens, fridges, and microwaves (where accessible)",
+      "Deep cleaning of bathroom tile, grout, and fixtures",
+      "Cleaning inside kitchen cabinets and drawers (when empty)",
+      "Washing interior windows and window sills",
+      "Vacuuming and mopping all floors, including under furniture where accessible",
+      "Wiping down vents, light fixtures, and ceiling fans",
+      "Disinfecting all high-touch surfaces throughout the home",
+      "Removing cobwebs from corners and ceilings"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Request a Quote",
+        "description": "Tell us whether it's a deep clean, move-in, or move-out job, along with your home's size and condition."
+      },
+      {
+        "step": 2,
+        "title": "Confirm & Schedule",
+        "description": "We'll find a date that works, especially important around move timelines and closing dates."
+      },
+      {
+        "step": 3,
+        "title": "We Deep Clean",
+        "description": "Our team works through the full checklist, spending extra time on detail areas most regular cleanings skip."
+      },
+      {
+        "step": 4,
+        "title": "Final Walkthrough",
+        "description": "We walk through the space with you to confirm everything meets expectations before you move on."
+      }
+    ],
+    "pricingNote": "Deep cleaning and move-in/move-out pricing depends on the size of the home, the number of rooms and washrooms, how much buildup or clutter is present, and whether cabinets and appliances are empty and accessible. A vacant unit is often quicker to clean thoroughly than an occupied home. Get a free, no-obligation quote based on your specific space and timeline.",
+    "faqs": [
+      {
+        "question": "What's the difference between a deep clean and a regular house cleaning?",
+        "answer": "A deep clean covers detail-level areas like baseboards, inside appliances, and grout that aren't part of a standard recurring visit. It typically takes longer and is a great one-time reset before starting a regular cleaning schedule."
+      },
+      {
+        "question": "Should the home be empty for a move-in/move-out clean?",
+        "answer": "An empty home lets us access cabinets, closets, and floors fully, which usually leads to a more thorough result. We can still work in a partially furnished space, just let us know the condition when requesting a quote."
+      },
+      {
+        "question": "Can this help meet my landlord's move-out cleaning requirements?",
+        "answer": "Our move-out cleaning is designed to leave a rental looking clean and well cared for, but we can't guarantee it will satisfy every specific lease clause, since requirements vary. If you have a checklist from your landlord, share it with us so we can address those points directly."
+      },
+      {
+        "question": "How long does a deep clean typically take?",
+        "answer": "Time depends on the size of the home and its current condition, so a small condo and a large house will differ quite a bit. We'll give you a time estimate along with your quote."
+      },
+      {
+        "question": "Can I book a deep clean as a one-time service?",
+        "answer": "Yes, this service is commonly booked as a standalone one-time clean, whether for a move, a seasonal reset, or before hosting guests. There's no obligation to sign up for recurring service afterward."
+      }
+    ],
+    "idealFor": [
+      "Renters who need a thorough clean before returning keys at the end of a lease",
+      "Homeowners preparing a property for new buyers or new occupants",
+      "Anyone moving into a new home who wants it spotless before unpacking",
+      "Households resetting a space that hasn't had a deep clean in a long time"
+    ]
+  },
+  {
+    "slug": "carpet-upholstery-cleaning",
+    "name": "Carpet & Upholstery Cleaning",
+    "icon": "carpet",
+    "metaTitle": "Carpet & Upholstery Cleaning GTA | Neat Squad",
+    "metaDescription": "Steam and extraction cleaning for carpets, rugs, sofas, and mattresses across the Greater Toronto Area. Refresh your fabrics with Neat Squad, get a free quote.",
+    "heroHeadline": "Deep-Clean Fabrics, Fresh Results",
+    "heroSubheadline": "Neat Squad's carpet and upholstery cleaning refreshes carpets, rugs, sofas, and mattresses for homes across the GTA.",
+    "overview": "Carpets, rugs, and upholstered furniture collect dust, dirt, and everyday spills that regular vacuuming can't fully remove. Neat Squad's carpet and upholstery cleaning uses steam and extraction methods to lift embedded dirt and refresh fabrics, helping rooms look and feel noticeably cleaner.\n\nThis service is a great fit for homeowners across the Greater Toronto Area looking to refresh high-traffic carpeted areas, remove stains from a favourite sofa, or give a mattress a deeper clean than it typically gets. It also pairs well with our house cleaning or move-in/move-out services for a more complete home refresh.",
+    "benefits": [
+      {
+        "title": "Removes Embedded Dirt",
+        "description": "Steam and extraction cleaning reach deeper into fibers than regular vacuuming can."
+      },
+      {
+        "title": "Refreshes High-Traffic Areas",
+        "description": "Helps restore the look of carpets and rugs in busy areas like hallways and living rooms."
+      },
+      {
+        "title": "Covers Multiple Fabric Types",
+        "description": "Cleans carpets, area rugs, sofas, and mattresses using methods suited to each material."
+      },
+      {
+        "title": "Helps With Everyday Spills",
+        "description": "Targeted attention to visible stains and spots as part of the overall cleaning process."
+      },
+      {
+        "title": "Pairs Well With Other Services",
+        "description": "Bundle with a house cleaning or move-in/move-out visit for a more thorough overall refresh."
+      }
+    ],
+    "whatsIncluded": [
+      "Pre-inspection of carpets, rugs, or upholstery before cleaning",
+      "Pre-treatment of visible stains and high-traffic areas",
+      "Steam or hot water extraction cleaning of carpets and rugs",
+      "Upholstery cleaning for sofas, chairs, and similar furniture",
+      "Mattress cleaning using appropriate low-moisture methods",
+      "Deodorizing treatment for carpets and fabrics (upon request)",
+      "Grooming of carpet fibers after cleaning for a more even finish",
+      "Drying time guidance so you know when the space is ready to use"
+    ],
+    "process": [
+      {
+        "step": 1,
+        "title": "Request a Free Quote",
+        "description": "Let us know which carpets, rugs, or furniture pieces you'd like cleaned."
+      },
+      {
+        "step": 2,
+        "title": "Confirm & Schedule",
+        "description": "We'll book a time that works, keeping in mind that surfaces will need time to dry afterward."
+      },
+      {
+        "step": 3,
+        "title": "We Clean",
+        "description": "Our team pre-treats stains and performs steam or extraction cleaning on each item or area."
+      },
+      {
+        "step": 4,
+        "title": "Drying & Follow-Up",
+        "description": "We share guidance on drying time and are happy to answer any questions after the visit."
+      }
+    ],
+    "pricingNote": "Carpet and upholstery cleaning costs depend on the number and size of rooms, rugs, or furniture pieces, the type of fabric, and how heavily soiled or stained the items are. A single sofa and a full-home carpet cleaning will naturally be priced differently. Request a free, no-obligation quote and we'll put together pricing based on exactly what you need cleaned.",
+    "faqs": [
+      {
+        "question": "How long does it take for carpets to dry after cleaning?",
+        "answer": "Drying time varies depending on the method used, humidity, and airflow in the room, but steam-cleaned carpets often take several hours to dry fully. We'll give you an estimate and some tips to help speed up drying after your visit."
+      },
+      {
+        "question": "Can you remove all stains from carpets or upholstery?",
+        "answer": "We can significantly improve the appearance of most stains, but some older or set-in stains may not come out completely depending on the fabric and stain type. We'll be honest with you about what to expect before we start."
+      },
+      {
+        "question": "Is the cleaning process safe for pets and children?",
+        "answer": "We aim to use cleaning methods and products intended for household use, and we're happy to discuss any specific sensitivities or concerns you have beforehand. If you'd like extra time before pets or kids are back on the carpet, we can advise based on drying time."
+      },
+      {
+        "question": "Do you clean area rugs as well as wall-to-wall carpet?",
+        "answer": "Yes, we clean both area rugs and wall-to-wall carpeting, along with upholstered furniture and mattresses. Just let us know what you'd like cleaned when requesting your quote."
+      },
+      {
+        "question": "How often should carpets and upholstery be professionally cleaned?",
+        "answer": "This depends on foot traffic, pets, allergies, and how the space is used, so there's no single answer that fits every home. Many homeowners in the GTA find that an annual or semi-annual cleaning helps keep carpets and furniture looking their best."
+      }
+    ],
+    "idealFor": [
+      "Homeowners with high-traffic carpeted areas that need a deeper refresh",
+      "Pet owners dealing with everyday stains or odours on carpets and furniture",
+      "Anyone preparing a home for guests, a sale, or a seasonal refresh",
+      "Households wanting mattresses cleaned as part of a healthier home routine"
+    ]
+  }
+]
