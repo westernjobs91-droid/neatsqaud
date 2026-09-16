@@ -42,8 +42,18 @@
       {
         "question": "Is parking an issue for your cleaning teams downtown?",
         "answer": "Our teams are familiar with Toronto's downtown parking limitations and plan accordingly, including using nearby paid lots when street parking isn't available. This is factored into scheduling rather than added as a surprise fee."
+      },
+      {
+        "question": "Do you need a freight or service elevator booked for larger jobs?",
+        "answer": "For move-in/move-out cleans or larger units, we're happy to work around a booked freight elevator slot if your building requires one. Just pass along the booking window and any building forms in advance so our team arrives ready."
+      },
+      {
+        "question": "Can you clean older semis or houses with narrow staircases and layouts?",
+        "answer": "Yes, we regularly clean Toronto's older semi-detached and rowhouses, including tighter staircases and smaller rooms typical of the city's pre-war housing stock. Our checklist adapts to the floor plan rather than assuming a standard layout."
       }
-    ]
+    ],
+    "parkingAndAccess": "Street parking in Toronto's downtown and midtown neighbourhoods is often metered or permit-restricted, so our teams plan for paid lots or short-term permits where needed rather than assuming a free spot out front. In condo and apartment buildings, visitor parking is usually limited, which is part of why we coordinate arrival times with concierge in advance.",
+    "seasonalNote": "Winter brings road salt and slush that gets tracked through lobbies and entryways, so many Toronto clients add extra floor attention to their visits from December through March. In summer, dust and pollen tend to settle quickly on high-rise balconies and window sills, which is worth mentioning if you'd like those areas included."
   },
   {
     "slug": "mississauga",
@@ -88,8 +98,18 @@
       {
         "question": "Do you service condo buildings as well as houses?",
         "answer": "Yes, we clean condos throughout Mississauga, including buildings near the waterfront and along the Hurontario corridor. We can coordinate with your building's concierge or management if visitor sign-in is required."
+      },
+      {
+        "question": "Do you offer driveway cleaning for homes with double or triple-car driveways?",
+        "answer": "Yes, driveway cleaning is available for Mississauga homes, including wider driveways and interlock aprons common in newer subdivisions. We can quote based on surface area and the type of buildup you're dealing with."
+      },
+      {
+        "question": "Can you schedule cleaning for a retail unit near Square One outside mall hours?",
+        "answer": "Yes, we can schedule retail cleaning early morning, late evening, or overnight to work around mall or plaza operating hours. Let us know your lease's access rules so we can plan the visit accordingly."
       }
-    ]
+    ],
+    "parkingAndAccess": "Most Mississauga houses have private driveways or garages, so access for a standard home clean is usually straightforward. Condo towers near Port Credit and the waterfront typically require visitor parking arrangements or concierge check-in, which we factor into scheduling.",
+    "seasonalNote": "Winter road salt tracked in from driveways and garages is a common reason Mississauga clients ask for extra entryway and floor attention through the colder months. Spring often brings pollen and dust buildup on patios and driveways, which is a good time to consider a driveway or exterior refresh."
   },
   {
     "slug": "brampton",
@@ -134,8 +154,18 @@
       {
         "question": "Do you offer recurring cleaning for busy family homes?",
         "answer": "Yes, weekly and biweekly recurring visits are popular with Brampton families managing busy schedules. We can adjust the plan seasonally or as your household's needs change."
+      },
+      {
+        "question": "Do you offer carpet cleaning for homes with pets or high-traffic areas?",
+        "answer": "Yes, carpet cleaning is available for Brampton homes, including bedrooms, stairs, and family rooms that see heavy daily use. Let us know about pets or specific stains so we can plan the right approach."
+      },
+      {
+        "question": "Can you pressure wash or clean driveways on wider two-car properties?",
+        "answer": "Yes, we service driveways on Brampton's newer two-car and interlock-driveway homes as well as older single driveways. We'll assess surface type and buildup before quoting the job."
       }
-    ]
+    ],
+    "parkingAndAccess": "Brampton's residential streets are largely made up of driveway and garage-parking homes, so access for house cleaning is typically simple to arrange. For commercial and industrial units in business parks, we coordinate loading and entrance access with property management or shift supervisors when needed.",
+    "seasonalNote": "Heavy winter salt and slush buildup on Brampton driveways and entryways is a common reason clients book a spring driveway wash alongside their regular home cleaning. Warmer months can bring dust from nearby construction in newer subdivisions, which is worth flagging if it affects your entryways."
   },
   {
     "slug": "vaughan",
@@ -180,8 +210,18 @@
       {
         "question": "Do you offer one-time deep cleans for move-ins or special occasions?",
         "answer": "Yes, one-time deep cleans are available for move-ins, move-outs, or before hosting an event at your Vaughan home. Just let us know the occasion so we can plan the visit appropriately."
+      },
+      {
+        "question": "Can you pressure wash long driveways or interlocking stone walkways?",
+        "answer": "Yes, we offer driveway and walkway pressure washing suited to Vaughan's often longer driveways and interlock stone surfaces. We'll look at the surface material first, since interlock and concrete are treated a bit differently."
+      },
+      {
+        "question": "Do you provide carpet cleaning for large finished basements?",
+        "answer": "Yes, carpet cleaning is available for finished basements, rec rooms, and staircases in Vaughan homes. We can bundle this with a regular home clean or book it as a standalone visit."
       }
-    ]
+    ],
+    "parkingAndAccess": "Most Vaughan homes have private driveways with ample space, so parking for a home visit is rarely an issue. Office park locations near the Vaughan Metropolitan Centre and Highway 400 corridor typically have visitor parking, though we confirm entrance and lot details ahead of a commercial visit.",
+    "seasonalNote": "Winter salt and ice-melt residue on interlock driveways and entryways is common across Vaughan, and many homeowners pair a spring driveway wash with their seasonal deep clean. Larger homes with more windows and formal spaces can also collect more dust over the winter months when they're less ventilated."
   },
   {
     "slug": "markham",
@@ -226,8 +266,18 @@
       {
         "question": "Is it possible to book a one-time deep clean before hosting family or guests?",
         "answer": "Yes, a one-time deep clean is a popular option ahead of holidays or family gatherings in Markham homes. We recommend booking a few days in advance to secure your preferred time."
+      },
+      {
+        "question": "Do you service condos near Markham Centre or Unionville?",
+        "answer": "Yes, we clean condo units in Markham, including buildings near Markham Centre and closer to Unionville's main street. We can coordinate with concierge or property management for visitor access if your building requires it."
+      },
+      {
+        "question": "Can you provide carpet cleaning for basements or rec rooms?",
+        "answer": "Yes, carpet cleaning is available for basements, rec rooms, and stairs in Markham homes, either alongside a regular clean or on its own. Let us know the approximate area so we can quote appropriately."
       }
-    ]
+    ],
+    "parkingAndAccess": "Most Markham houses, including newer communities like Cornell and Berczy Village, have private driveways that make parking straightforward for a home visit. Condo buildings near Markham Centre typically require visitor parking or lobby check-in, which we plan for ahead of time.",
+    "seasonalNote": "Winter slush tracked in from driveways and garages is a common reason Markham clients add extra floor and entryway attention to their winter cleanings. Humid summer stretches can also leave dust and pollen settling on window sills and patios that a standard clean doesn't always reach."
   },
   {
     "slug": "richmond-hill",
@@ -272,8 +322,18 @@
       {
         "question": "Do you offer seasonal deep cleaning?",
         "answer": "Yes, seasonal deep cleans are available for Richmond Hill homes, which many clients book around spring or before the winter holidays. These visits cover areas that don't get attention during a standard clean."
+      },
+      {
+        "question": "Do you pressure wash driveways or walkways on larger properties?",
+        "answer": "Yes, driveway and walkway pressure washing is available for Richmond Hill's larger lots and multi-car driveways. We assess the surface and level of buildup before providing a quote."
+      },
+      {
+        "question": "Can you clean condo units along the Yonge Street corridor?",
+        "answer": "Yes, we service condo units in Richmond Hill, including buildings along Yonge Street. We're comfortable coordinating with concierge or management for visitor access when needed."
       }
-    ]
+    ],
+    "parkingAndAccess": "Established neighbourhoods like Mill Pond and Bayview Hill generally have driveway parking that makes access easy for a home visit. Near the busier Yonge Street corridor, street parking can be tighter during the day, so we plan commercial visits around available loading or lot space.",
+    "seasonalNote": "Winter salt and ice-melt residue tracked onto hardwood and tile entryways is a common concern for Richmond Hill's larger homes during the colder months. Fall leaf debris around entryways and walkways is another seasonal factor many clients ask us to account for."
   },
   {
     "slug": "oakville",
@@ -318,8 +378,18 @@
       {
         "question": "Do you clean homes near the lake in Bronte or Old Oakville?",
         "answer": "Yes, we regularly service homes throughout Bronte and Old Oakville, including older character properties that sometimes need a bit more attention to detail. We're happy to discuss your home's specific layout when booking."
+      },
+      {
+        "question": "Do you offer driveway or exterior pressure washing for larger properties?",
+        "answer": "Yes, driveway and exterior pressure washing is available for Oakville's larger lots, including interlock and stone surfaces around properties in Glen Abbey and River Oaks. We assess the surface material before quoting, since stone and concrete are treated differently."
+      },
+      {
+        "question": "Can you clean condo units near Bronte Harbour or downtown Oakville?",
+        "answer": "Yes, we service condo units throughout Oakville, including buildings near Bronte Harbour and the downtown core. We're comfortable coordinating with concierge or building management for access."
       }
-    ]
+    ],
+    "parkingAndAccess": "Most Oakville neighbourhoods have driveway parking that makes house calls straightforward, though some streets in Old Oakville and Kerr Village are narrower and can have limited parking near heritage homes. Condo buildings near the harbour typically involve visitor parking or lobby check-in, which we arrange ahead of the visit.",
+    "seasonalNote": "Winter road salt can be tough on natural stone entryways and hardwood floors, so many Oakville clients ask for extra attention to these surfaces during the colder months. Lakeside humidity and spring pollen are also common factors behind requests for more frequent window sill and patio door cleaning."
   },
   {
     "slug": "etobicoke",
@@ -364,8 +434,18 @@
       {
         "question": "Do you offer commercial cleaning near the airport or highway corridors?",
         "answer": "Yes, we clean offices and light commercial spaces in Etobicoke's airport-adjacent business areas. We can schedule around shift patterns or business hours to keep things running smoothly."
+      },
+      {
+        "question": "Do you offer carpet cleaning for condo units or homes near Humber Bay Shores?",
+        "answer": "Yes, carpet cleaning is available for both condo units and houses across Etobicoke, including the Humber Bay Shores area. Let us know the room count or approximate area so we can quote accurately."
+      },
+      {
+        "question": "Can you clean retail or commercial spaces on evenings or weekends?",
+        "answer": "Yes, we can schedule commercial cleaning outside regular business hours, including evenings and weekends, for Etobicoke retail and office clients. This helps keep the visit from interrupting customer traffic or staff work."
       }
-    ]
+    ],
+    "parkingAndAccess": "Waterfront condo towers in Mimico and Humber Bay Shores generally require visitor parking coordination or concierge check-in, which we arrange in advance. Detached homes in areas like The Kingsway and Alderwood typically have driveways, making access for those visits more straightforward.",
+    "seasonalNote": "Winter salt and slush tracked into condo lobbies and home entryways is a common reason Etobicoke clients ask for extra floor attention through the season. Being close to the lake, fall winds can also blow leaves and debris toward entryways and balconies, which is worth mentioning if you'd like it included."
   },
   {
     "slug": "scarborough",
@@ -410,8 +490,18 @@
       {
         "question": "Do you offer recurring cleaning plans for busy households?",
         "answer": "Yes, weekly and biweekly recurring plans are common among Scarborough clients balancing work and family schedules. We can adjust frequency at any time as your needs change."
+      },
+      {
+        "question": "Do you offer carpet cleaning for older bungalows with original flooring?",
+        "answer": "Yes, carpet cleaning is available for Scarborough homes of any age, including older bungalows with original carpet or flooring. We'll take a look at the material and condition before recommending an approach."
+      },
+      {
+        "question": "Can you clean retail units on evenings or weekends near busy commercial strips?",
+        "answer": "Yes, we can schedule retail and office cleaning in the evenings or on weekends along corridors like Kennedy Road and Markham Road. This is a common request from businesses that want to avoid cleaning during customer hours."
       }
-    ]
+    ],
+    "parkingAndAccess": "Most Scarborough homes, from bungalows near the bluffs to larger houses further north, have driveway parking that keeps access simple for a scheduled visit. Parking near busier commercial strips such as Kennedy Road or Sheppard Avenue can be tighter during peak hours, which we factor into commercial scheduling.",
+    "seasonalNote": "Winter slush and road salt tracked into entryways is a common reason Scarborough households ask for extra floor attention during the colder months. Near the bluffs, summer humidity can add a bit more dust and moisture to window sills and patio areas than usual."
   },
   {
     "slug": "north-york",
@@ -456,7 +546,17 @@
       {
         "question": "Do you offer office cleaning along the Yonge Street corridor?",
         "answer": "Yes, we provide recurring commercial cleaning for offices along North York's Yonge Street and Sheppard Avenue business areas. We can schedule visits before or after standard office hours."
+      },
+      {
+        "question": "Do you offer carpet cleaning for condo units or larger Don Mills homes?",
+        "answer": "Yes, carpet cleaning is available for both condo units and larger detached homes across North York, including the Don Mills area. Let us know the rooms or approximate area involved so we can quote accurately."
+      },
+      {
+        "question": "Can you clean offices during evening hours along Yonge-Eglinton?",
+        "answer": "Yes, we can schedule office cleaning in the evenings for businesses along the Yonge-Eglinton and Yonge-Sheppard corridors. This is a common option for offices that prefer cleaning after staff have left for the day."
       }
-    ]
+    ],
+    "parkingAndAccess": "Condo towers in Willowdale and around Yonge-Sheppard typically require visitor parking coordination or concierge check-in, which we plan for ahead of each visit. Houses in areas like Don Mills and Bayview Village generally have driveways, making access for those cleans more straightforward.",
+    "seasonalNote": "Winter salt and slush tracked into condo lobbies and home entryways often means extra floor attention is worth adding to North York visits through the colder months. Spring pollen can also settle on balconies and window sills in the high-rise areas, which is easy to fold into a regular cleaning visit."
   }
 ]

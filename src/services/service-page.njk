@@ -70,6 +70,16 @@ eleventyComputed:
             {% endfor %}
           </ul>
         </div>
+        {% if service.equipment %}
+        <div class="card">
+          <h3>Equipment & products we use</h3>
+          <ul class="check-list">
+            {% for item in service.equipment %}
+            <li>{{ icon("check") }} <span>{{ item }}</span></li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
         <div class="card" style="background:var(--color-primary-light);border:none">
           <h3>Serving the whole GTA</h3>
           <p>{{ service.name }} is available across the Greater Toronto Area.</p>
@@ -84,11 +94,35 @@ eleventyComputed:
   </div>
 </section>
 
+{% if service.addOns %}
+<section class="section section-alt">
+  <div class="container">
+    <div class="text-center" style="margin-bottom:2.5rem">
+      <span class="eyebrow">Bundle & save time</span>
+      <h2>Popular add-ons for {{ service.name | lower }}</h2>
+      <p class="lede" style="margin:0 auto">Tell us what you'd like added when you request your quote.</p>
+    </div>
+    <div class="grid grid-4">
+      {% for addOn in service.addOns %}
+      <div class="card">
+        <div class="card-icon">{{ icon("check") }}</div>
+        <h3>{{ addOn.name }}</h3>
+        <p>{{ addOn.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
 <section class="section section-alt">
   <div class="container">
     <div class="text-center" style="margin-bottom:2.5rem">
       <span class="eyebrow">How it works</span>
       <h2>What to expect</h2>
+      {% if service.dayOfExpectations %}
+      <p class="lede" style="margin:0 auto">{{ service.dayOfExpectations }}</p>
+      {% endif %}
     </div>
     <ol class="steps">
       {% for step in service.process %}

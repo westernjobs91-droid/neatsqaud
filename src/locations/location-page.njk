@@ -58,6 +58,17 @@ eleventyComputed:
           <p>{{ w.description }}</p>
         </div>
         {% endfor %}
+        {% if location.parkingAndAccess or location.seasonalNote %}
+        <div class="card" style="background:var(--color-primary-light);border:none">
+          <h3>Good to know in {{ location.name }}</h3>
+          {% if location.parkingAndAccess %}
+          <p style="display:flex;gap:0.6rem;align-items:flex-start"><span class="note-icon">{{ icon("pin") }}</span><span>{{ location.parkingAndAccess }}</span></p>
+          {% endif %}
+          {% if location.seasonalNote %}
+          <p style="display:flex;gap:0.6rem;align-items:flex-start;margin-bottom:0"><span class="note-icon">{{ icon("clock") }}</span><span>{{ location.seasonalNote }}</span></p>
+          {% endif %}
+        </div>
+        {% endif %}
       </div>
     </div>
   </div>

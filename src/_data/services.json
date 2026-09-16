@@ -64,6 +64,33 @@
       }
     ],
     "pricingNote": "The cost of house cleaning depends on factors like the size of your home, the number of bedrooms and bathrooms, how often you'd like us to come, and the current condition of the space. Homes that are cleaned regularly typically cost less per visit than a one-time deep clean. Request a free, no-obligation quote and we'll give you a clear price based on your specific home.",
+    "addOns": [
+      {
+        "name": "Inside-Fridge Cleaning",
+        "description": "We empty, wipe down, and sanitize the interior of your refrigerator, including shelves and drawers."
+      },
+      {
+        "name": "Interior Window Cleaning",
+        "description": "Add interior glass cleaning for windows throughout the home, beyond the low, easily reached windows covered in a standard visit."
+      },
+      {
+        "name": "Laundry & Folding",
+        "description": "We wash, dry, and neatly fold a load of laundry while we're in your home, so it's one less thing on your list."
+      },
+      {
+        "name": "Inside-Oven Detailing",
+        "description": "A focused, hands-on scrub of the oven interior to cut through baked-on grease and residue."
+      }
+    ],
+    "equipment": [
+      "HEPA-filter vacuums for better indoor air quality",
+      "Microfiber cloths and flat mop systems that trap dust rather than spreading it",
+      "Color-coded tools to help prevent cross-contamination between kitchens, bathrooms, and living spaces",
+      "Extendable dusters for ceiling fans, vents, and other hard-to-reach spots",
+      "Eco-friendly, non-toxic product options available on request",
+      "Separate cloths and brushes for glass, wood, and tile surfaces"
+    ],
+    "dayOfExpectations": "Our team will arrive within your scheduled window and do a quick check-in before getting started, so you know what to expect and can flag any priorities for that visit. Most homes take roughly 2 to 4 hours to clean, though the exact time depends on the size of the home, the number of rooms, and how the space is currently kept. If anything looks different from what was discussed, we'll always check with you before making changes to the plan.",
     "faqs": [
       {
         "question": "Do I need to be home during the cleaning?",
@@ -84,6 +111,18 @@
       {
         "question": "What areas of the GTA do you service?",
         "answer": "We serve homes across the Greater Toronto Area. If you're unsure whether your neighbourhood is covered, reach out and we'll confirm availability for your address."
+      },
+      {
+        "question": "Do you clean around pets?",
+        "answer": "Yes, most of our cleaners are comfortable working in homes with pets. Just let us know about any animals in advance so we can plan accordingly, and keep gates or doors closed as needed for everyone's comfort and safety."
+      },
+      {
+        "question": "What happens if something gets damaged during a cleaning?",
+        "answer": "Accidents are rare, but if something is damaged during a visit, please let us know right away so we can discuss how to make it right. We handle each situation individually and want you to feel comfortable raising any concerns."
+      },
+      {
+        "question": "Can I add extra tasks, like inside the fridge or oven, to a regular visit?",
+        "answer": "Yes, add-on tasks like inside-fridge or inside-oven cleaning can usually be added to a scheduled visit. Just mention what you'd like included when booking or reach out ahead of time so we can plan enough time for it."
       }
     ],
     "idealFor": [
@@ -158,6 +197,33 @@
       }
     ],
     "pricingNote": "Commercial cleaning costs vary based on square footage, layout, number of washrooms, cleaning frequency, and the general condition of the space. A retail storefront and a multi-room office will have different needs, which is why every quote is based on a look at your specific property. Reach out for a free, no-obligation quote tailored to your business.",
+    "addOns": [
+      {
+        "name": "Post-Event Cleanup",
+        "description": "A one-time thorough clean-up after an office event, launch, or gathering so your space is ready for business the next day."
+      },
+      {
+        "name": "High-Touch-Point Disinfection",
+        "description": "An added focus pass on doorknobs, light switches, shared equipment, and other frequently touched surfaces."
+      },
+      {
+        "name": "Floor Stripping & Waxing",
+        "description": "Periodic deep restoration of hard floors to remove built-up wax layers and refresh their finish."
+      },
+      {
+        "name": "Interior Glass & Storefront Window Cleaning",
+        "description": "Streak-free cleaning of interior glass partitions and storefront windows for a sharper first impression."
+      }
+    ],
+    "equipment": [
+      "Commercial-grade vacuums with HEPA filtration for shared workspaces",
+      "Color-coded microfiber system to help prevent cross-contamination between washrooms and common areas",
+      "Auto-scrubbers or mop systems suited to larger hard-floor areas",
+      "Disinfecting products intended for high-touch surfaces",
+      "Restroom-specific tools and supplies kept separate from other cleaning equipment",
+      "Eco-friendly, non-toxic product options available on request"
+    ],
+    "dayOfExpectations": "Our team arrives within your agreed window, typically before or after business hours, and does a brief check-in with your designated contact or a quick self-guided walkthrough if the space is unattended. How long a visit takes depends heavily on square footage and layout, but most small offices take roughly 1 to 3 hours, while larger commercial spaces can take longer. We aim to leave the space exactly as agreed, with doors locked and lights set the way you prefer.",
     "faqs": [
       {
         "question": "Can you clean outside of regular business hours?",
@@ -178,6 +244,18 @@
       {
         "question": "How do you handle access to our building or office?",
         "answer": "We'll work with you to arrange secure access, whether that's a key, fob, or building management coordination. Every business has different security needs, so we adapt to what works for your property."
+      },
+      {
+        "question": "Do you restock supplies like paper towels or hand soap?",
+        "answer": "We can include restocking of basic washroom and breakroom supplies as part of a plan if you'd like, as long as you keep us supplied with the products to use. Let us know during your quote if this is something you want included."
+      },
+      {
+        "question": "Can you handle a one-time cleanup after an office event or party?",
+        "answer": "Yes, post-event cleanup is a common request and can be booked as a standalone visit outside your regular schedule. Just give us as much notice as you can so we can plan accordingly."
+      },
+      {
+        "question": "Can we add services like floor waxing on top of our regular cleaning plan?",
+        "answer": "Yes, add-ons like floor stripping and waxing can be scheduled periodically alongside your recurring cleaning. We'll discuss frequency and timing based on your floor type and how the space is used."
       }
     ],
     "idealFor": [
@@ -251,6 +329,33 @@
       }
     ],
     "pricingNote": "Pricing for driveway and exterior cleaning depends on the total surface area, the type of material, how many surfaces you'd like cleaned, and how heavy the buildup is. A small walkway and a large multi-surface property will naturally differ in cost. Request a free, no-obligation quote and we'll assess your specific property.",
+    "addOns": [
+      {
+        "name": "Gutter Cleaning",
+        "description": "Clearing leaves and debris from gutters to help prevent clogging and water overflow around your home."
+      },
+      {
+        "name": "Fence Washing",
+        "description": "Pressure washing to remove dirt, mildew, and grey buildup from wood, vinyl, or composite fencing."
+      },
+      {
+        "name": "Exterior Window Washing",
+        "description": "Cleaning the outside of accessible windows to complement a freshly washed driveway and exterior."
+      },
+      {
+        "name": "Roof Soft-Washing",
+        "description": "A lower-pressure wash to help lift moss, algae, and staining from roof surfaces where appropriate for the material."
+      }
+    ],
+    "equipment": [
+      "Gas and electric pressure washers with adjustable PSI settings",
+      "Surface cleaner attachments for even coverage on large flat areas like driveways and patios",
+      "Soft-wash equipment for more delicate surfaces such as siding and roofing",
+      "Eco-friendly, biodegradable detergents available on request",
+      "Extension wands for reaching upper-level siding, soffits, and gutters",
+      "Protective coverings to shield landscaping and outdoor fixtures during washing"
+    ],
+    "dayOfExpectations": "Our team arrives within the scheduled window and does a quick walkthrough with you to confirm which surfaces are being cleaned and where to access water and power. Job length varies with the number and size of surfaces, but a standard driveway and walkway often takes a couple of hours, while multi-surface jobs covering a driveway, patio, and siding can take the better part of a day. Because this is outdoor work, we schedule around suitable weather and may need to reschedule if conditions turn unsafe.",
     "faqs": [
       {
         "question": "Is pressure washing safe for all surfaces?",
@@ -271,6 +376,18 @@
       {
         "question": "Will this damage my plants or landscaping?",
         "answer": "We take care to work around landscaping and will avoid directing high-pressure water at delicate plants. If you have specific areas you're concerned about, just point them out before we start."
+      },
+      {
+        "question": "Do I need to provide access to water and power?",
+        "answer": "In most cases, yes, we'll need access to an outdoor water source and, depending on the equipment used, a power outlet. We'll confirm what's needed for your specific job when scheduling."
+      },
+      {
+        "question": "What happens if it rains on the day of my scheduled cleaning?",
+        "answer": "Since this is outdoor work, we monitor the forecast and will reach out to reschedule if rain or unsafe conditions are expected. We'd rather move the appointment than deliver a rushed or lower-quality result."
+      },
+      {
+        "question": "Can gutter or roof cleaning be added to the same visit?",
+        "answer": "Yes, gutter cleaning and roof soft-washing can often be bundled with a driveway or exterior visit. Let us know when requesting a quote so we can plan enough time and the right equipment for everything."
       }
     ],
     "idealFor": [
@@ -345,6 +462,33 @@
       }
     ],
     "pricingNote": "Deep cleaning and move-in/move-out pricing depends on the size of the home, the number of rooms and washrooms, how much buildup or clutter is present, and whether cabinets and appliances are empty and accessible. A vacant unit is often quicker to clean thoroughly than an occupied home. Get a free, no-obligation quote based on your specific space and timeline.",
+    "addOns": [
+      {
+        "name": "Appliance Detailing",
+        "description": "A more thorough interior clean of ovens, fridges, and dishwashers, including seals, racks, and vents where accessible."
+      },
+      {
+        "name": "Wall Spot-Cleaning",
+        "description": "Targeted cleaning of scuffs, marks, and handprints on walls, especially around switches, doorframes, and hallways."
+      },
+      {
+        "name": "Inside-Closet Cleaning",
+        "description": "Wiping down closet shelving, rods, and floors once items have been removed or boxed up."
+      },
+      {
+        "name": "Carpet Steam-Cleaning Bundle",
+        "description": "Add steam cleaning for carpets or area rugs to your deep clean or move-out visit for a more complete refresh."
+      }
+    ],
+    "equipment": [
+      "HEPA-filter vacuums suited to dusty or post-move conditions",
+      "Long-handled scrub brushes and grout tools for tile, baseboards, and corners",
+      "Degreasers and appliance-safe cleaning solutions for ovens and stovetops",
+      "Extendable dusters and microfiber systems for vents, ceiling fans, and light fixtures",
+      "Color-coded cloths to keep kitchen and bathroom tools separate",
+      "Eco-friendly, non-toxic product options available on request"
+    ],
+    "dayOfExpectations": "Our team arrives within the scheduled window and does a walkthrough with you (or notes the home's condition if it's vacant) before starting, since deep cleans and move-outs vary a lot from home to home. Because this service covers detail work that regular cleaning skips, it takes longer than a standard visit; most homes take roughly 4 to 8 hours depending on size and condition, and larger or heavily soiled homes may need a full day or a follow-up visit. Empty homes with clear access to cabinets and floors are usually able to be completed more efficiently than occupied ones.",
     "faqs": [
       {
         "question": "What's the difference between a deep clean and a regular house cleaning?",
@@ -365,6 +509,18 @@
       {
         "question": "Can I book a deep clean as a one-time service?",
         "answer": "Yes, this service is commonly booked as a standalone one-time clean, whether for a move, a seasonal reset, or before hosting guests. There's no obligation to sign up for recurring service afterward."
+      },
+      {
+        "question": "Do I need to have water and electricity turned on during a move-out clean?",
+        "answer": "Yes, active water and electricity make it possible for us to properly clean appliances, floors, and fixtures. If utilities will be disconnected before your scheduled visit, let us know so we can plan around it."
+      },
+      {
+        "question": "What if the home has heavy buildup, clutter, or pest activity?",
+        "answer": "Let us know about the condition of the space in advance so we can plan enough time and the right approach. Some situations, like significant pest activity, may need to be addressed separately before or alongside a deep clean."
+      },
+      {
+        "question": "Can you schedule around a moving truck or closing date?",
+        "answer": "We do our best to work around move timelines and closing dates, since we know these visits are often time-sensitive. Share your key dates when requesting a quote so we can find a slot that fits."
       }
     ],
     "idealFor": [
@@ -438,6 +594,33 @@
       }
     ],
     "pricingNote": "Carpet and upholstery cleaning costs depend on the number and size of rooms, rugs, or furniture pieces, the type of fabric, and how heavily soiled or stained the items are. A single sofa and a full-home carpet cleaning will naturally be priced differently. Request a free, no-obligation quote and we'll put together pricing based on exactly what you need cleaned.",
+    "addOns": [
+      {
+        "name": "Curtain & Drape Cleaning",
+        "description": "Gentle cleaning of curtains and drapes to remove dust and odours that build up alongside carpets and upholstery."
+      },
+      {
+        "name": "Area Rug Pickup & Return Service",
+        "description": "We pick up area rugs, clean them off-site, and return them once they're dry, so you don't have to manage transport."
+      },
+      {
+        "name": "Fabric Protector Application",
+        "description": "A protective treatment applied after cleaning to help fabrics resist future spills and everyday soiling."
+      },
+      {
+        "name": "Pet Stain & Odour Treatment",
+        "description": "Extra pre-treatment focused on pet-related stains and odours in carpets or upholstery."
+      }
+    ],
+    "equipment": [
+      "Steam and hot water extraction machines for carpets and rugs",
+      "Low-moisture cleaning equipment for delicate or moisture-sensitive fabrics",
+      "Pre-treatment sprayers for stains and high-traffic areas",
+      "Grooming tools to restore carpet pile and even out the finish after cleaning",
+      "Air movers to help speed up drying time",
+      "Eco-friendly, non-toxic product options available on request"
+    ],
+    "dayOfExpectations": "Our team arrives within the scheduled window and walks through the space with you first to identify problem areas, fabric types, and any specific concerns before cleaning begins. Timing depends on how much is being cleaned; cleaning carpets in a few rooms often takes 1 to 3 hours, while a full-home carpet job or multiple upholstery pieces can take longer. Surfaces will need time to dry afterward, and we'll walk you through drying guidance before we leave.",
     "faqs": [
       {
         "question": "How long does it take for carpets to dry after cleaning?",
@@ -458,6 +641,18 @@
       {
         "question": "How often should carpets and upholstery be professionally cleaned?",
         "answer": "This depends on foot traffic, pets, allergies, and how the space is used, so there's no single answer that fits every home. Many homeowners in the GTA find that an annual or semi-annual cleaning helps keep carpets and furniture looking their best."
+      },
+      {
+        "question": "Do I need to move furniture before you arrive?",
+        "answer": "For carpet cleaning, it helps if smaller items and breakables are cleared from the floor, but our team can move light furniture like chairs as needed. Let us know in advance about any heavy or delicate pieces you'd like handled a certain way."
+      },
+      {
+        "question": "Can you treat pet odours as well as visible stains?",
+        "answer": "Yes, we offer pet stain and odour treatment as part of the pre-treatment process for affected areas. Let us know where the trouble spots are so we can give them extra attention."
+      },
+      {
+        "question": "How soon can I walk on the carpet or use the furniture again?",
+        "answer": "This depends on the cleaning method, humidity, and airflow in the room, but we'll give you a drying-time estimate before we leave. Keeping pets and kids off freshly cleaned areas until they're dry helps protect the results."
       }
     ],
     "idealFor": [
